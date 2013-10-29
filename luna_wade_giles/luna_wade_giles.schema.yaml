@@ -111,12 +111,13 @@ translator:
     - xform/([nl])u(e)/$1üe/
 
 reverse_lookup:
-  dictionary: luna_pinyin
+  dictionary: stroke
+  enable_completion: true
   prefix: "`"
-  tips: 〔朙月拼音〕
+  suffix: "'"
+  tips: 〔筆畫〕
   preedit_format:
-    - xform/([nljqxy])v/$1ü/
-    - xform/([aoiue])gn/$1ng/
+    - xlit/hspnz/一丨丿丶乙/
 
 punctuator:
   full_shape:
