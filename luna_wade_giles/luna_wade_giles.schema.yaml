@@ -1,0 +1,206 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: luna_wade_giles
+  name: 朙月拼音・韋翟式 ₀.₂
+  version: "0.2"
+  author:
+    - Patrick <ipatrickmac@qq.com>
+  description: |
+    北京官話威妥瑪翟理斯式拼音
+    Wade–Giles Romanization System
+
+    dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 全角, 半角 ]
+  - name: simplification
+    states: [ 傳統, 簡化 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba'
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " "
+  algebra:
+    - erase/^xx$/
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
+    - derive/^([nl])ve$/$1ue/
+    - derive/^([jqxy])u/$1v/
+    - derive/un$/uen/
+    - derive/ui$/uei/
+    - derive/iu$/iou/
+    - derive/([aeiou])ng$/$1gn/
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    - derive/ong$/on/
+    - derive/ao$/oa/
+    - derive/ao$/au/
+    - derive/([iu])a(o|ng?)$/a$1$2/
+
+translator:
+  dictionary: luna_pinyin
+  spelling_hints: 9
+  preedit_format:
+    - xform/(\b[gkh])e(\W|$)/$1o$2/
+    - 'xform yi(\W|$) i$1'
+    - 'xform ([bpmfdtnlsr]|[zc]h?)uo $1o'
+    - 'xform ([zcs]h|r)i $1ih'
+    - 'xform ([iy])an(\W|$) $1en$2'
+    - 'xform ([nl])ue(\W|$) $1üeh$2'
+    - 'xform ([iyuv])e(\W|$) $1eh$2'
+    - 'xform p p'''
+    - 'xform b p'
+    - 'xform t t'''
+    - 'xform d t'
+    - 'xform ([gk])ui $1uei'
+    - 'xform k k'''
+    - 'xform (\b)g k'
+    - 'xform ng|gn ng'
+    - 'xform c([aeou]|\W|$) ts''$1'
+    - 'xform z([aeou]|\W|$) ts$1'
+    - 'xform zi tsû'	#tzu	tsŭ
+    - 'xform ci ts''û'	#tz''u	ts''ŭ
+    - 'xform si ssû'	#szu	ss''ŭ
+    - 'xform (\b|[bpmfdtnlgkhzcsrw])e(n?g?)(\W|$) $1ê$2$3'
+    - 'xform ain ien'
+    - 'xform ong? ung'
+    - 'xform ([iy])([ou])(ng) $1u$3'
+    - 'xform ([jqxy])([uv])([ae]?[nh]?)(\W|$) $1ü$3$4'
+    - 'xform (y[uv])(\W|$) yü$2'
+    - 'xform ([yi])ou $1u'
+    - 'xform ([nl])v $1ü'
+    - 'xform ao|oa|au ao'	#au
+    - 'xform x hs'
+    - 'xform q|ch ch'''
+    - 'xform j|zh ch'
+    - 'xform (\b)er êrh'
+    - 'xform (\b)r j'
+  comment_format:
+    - xform/([nljqxy])v/$1ü/
+    - xform/([nl])u(e)/$1üe/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  tips: 〔朙月拼音〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+    - xform/([aoiue])gn/$1ng/
+
+punctuator:
+  full_shape:
+    " " : { commit: "　" }
+    "<" : { commit: "，" }
+    ">" : { commit: "。" }
+    "?" : [ ？, ／, "/", ÷ ]
+    ":" : [ ：, ； ]
+    "'" : { pair: [ "‘", "’" ] }
+    "\"" : { pair: [ "“", "”" ] }
+    "\\" : [ 、, ＼, "\\" ]
+    "|" : [ ・, ｜, "|", "§", "¦" ]
+    "`" : [ ｀, "`" ]
+    "~" : [ 〜, "~", ～, 〰 ]
+    "!" : { commit: ！ }
+    "@" : [ ＠, "@", ☯ ]
+    "#" : [ ＃, "#", ⌘ ]
+    "%" : [ ％, "%", "°", "℃" ]
+    "$" : [ ￥, "$", "€", "£", "¥", "¢", "¤" ]
+    "^" : { commit: …… }
+    "&" : [ ＆, "&" ]
+    "*" : [ ＊, "*", ・, ×, ※, ❂, · ]
+    "(" : （
+    ")" : ）
+    "_" : [ ——, －, "-" ]
+    "+" : [ ＋, "+" ]
+    "=" : [ ＝, "=" ]
+    "[" : [ 「, 【, 《, 〔, ［ ]
+    "]" : [ 」, 】, 》, 〕, ］ ]
+    "{" : [ 『, 〖, 〈, ｛ ]
+    "}" : [ 』, 〗, 〉, ｝ ]
+  half_shape:
+    "<" : { commit: "，" }
+    ">" : { commit: "。" }
+    "?" : [ ？, ／, "/", ÷ ]
+    ":" : [ ：, ； ]
+    "'" : { pair: [ "‘", "’" ] }
+    "\"" : { pair: [ "“", "”" ] }
+    "\\" : [ 、, "\\", ＼ ]
+    "|" : [ ・, "|", ｜, "§", "¦" ]
+    "`" : "`"
+    "~" : "~"
+    "!" : { commit: ！ }
+    "@" : "@"
+    "#" : "#"
+    "%" : [ "%", ％, "°", "℃" ]
+    "$" : [ ￥, "$", "€", "£", "¥", "¢", "¤" ]
+    "^" : { commit: …… }
+    "&" : "&"
+    "*" : [ "*", ＊, ・, ×, ※, ❂, · ]
+    "(" : （
+    ")" : ）
+    "_" : [ ——, －, "-" ]
+    "+" : "+"
+    "=" : "="
+    "[" : [ 「, 【, 《, 〔, ［ ]
+    "]" : [ 」, 】, 》, 〕, ］ ]
+    "{" : [ 『, 〖, 〈, ｛ ]
+    "}" : [ 』, 〗, 〉, ｝ ]
+
+key_binder:
+  bindings:
+    # Emacs style
+    - { when: composing, accept: Control+p, send: Up }
+    - { when: composing, accept: Control+n, send: Down }
+    - { when: composing, accept: Control+b, send: Left }
+    - { when: composing, accept: Control+f, send: Right }
+    - { when: composing, accept: Control+a, send: Home }
+    - { when: composing, accept: Control+e, send: End }
+    - { when: composing, accept: Control+d, send: Delete }
+    - { when: composing, accept: Control+g, send: Escape }
+    - { when: composing, accept: Alt+v, send: Page_Up }
+    - { when: composing, accept: Control+v, send: Page_Down }
+    #- { when: composing, accept: Return, send: Control+Return }
+    # commonly used paging keys
+    - { when: composing, accept: ISO_Left_Tab, send: Page_Up }
+    - { when: composing, accept: Shift+Tab, send: Page_Up }
+    - { when: composing, accept: Tab, send: Page_Down }
+    - { when: paging, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
+
+recognizer:
+  patterns:
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp:|mailto:).*$"
+    reverse_lookup: "`[a-z]*'?$"
