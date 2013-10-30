@@ -51,6 +51,7 @@ speller:
   delimiter: " ;'"
   algebra:
 
+# 刪abc_segmentor等以下三條可以取消拼音混輸 
 abc_segmentor:
   extra_tags:
     - reverse_lookup
@@ -72,6 +73,12 @@ translator:
   disable_user_dict_for_patterns:
     - "^[0-9].*$"
   enable_charset_filter: true
+# 以下一條爲禁用用戶詞典，禁用後則不調頻
+#  enable_user_dict: false
+# 以下三條爲自動組詞
+#  enable_encoder: true
+#  encode_commit_history: true
+#  max_phrase_length: 5
   preedit_format:
     - "xform/^([a-z ]*)$/$1｜\\U$1\\E/"
     - xform/(?<=[a-z])\s(?=[a-z])//
