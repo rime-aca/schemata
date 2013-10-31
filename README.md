@@ -6,8 +6,9 @@ This repository is for sharing rime schemata.
 
 Schema list:
 
-	KMG -- 廣韻段毄攴字法
-	nieh_ched -- 爾切羅馬字
+	Middle Chinese Phonetics --廣韻查詢
+	KMG --廣韻段毄攴字法
+	nieh_ched --爾切羅馬字
 	Cangjie6 --蒼頡檢字法
 	Chuimfuhau --注音文
 	bopomofo_hsu --注音・許式
