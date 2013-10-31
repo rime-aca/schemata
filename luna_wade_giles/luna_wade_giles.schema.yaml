@@ -179,6 +179,7 @@ punctuator:
     "}" : [ 』, 〗, 〉, ｝ ]
 
 key_binder:
+  import_preset: default
   bindings:
     # Emacs style
     - { when: composing, accept: Control+p, send: Up }
