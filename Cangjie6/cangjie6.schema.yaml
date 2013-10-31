@@ -46,6 +46,9 @@ engine:
     - reverse_lookup_translator
     - table_translator
 
+simplifier:
+  tip: all
+
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " ;'"
