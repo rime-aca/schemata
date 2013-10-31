@@ -7,10 +7,7 @@ Middle Chinese Phonetics
 3. Finals are categorized to those of "FLAT" tones.
 4. Lip initials doesn't indicate labio-velarization
 
-一、以倉頡或普通話拼音查詢
-
-二、顯示格式：〖聲〗等與開闔【韻】調
-
-三、韻母舉平以賅上去入
-
+一、以倉頡或普通話拼音查詢 
+二、顯示格式：〖聲〗等與開闔【韻】調 
+三、韻母舉平以賅上去入 
 四、脣音無開闔
