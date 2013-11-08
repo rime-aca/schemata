@@ -39,7 +39,6 @@ zh_simp:
 
 engine:
   filters:
-    - simplifier@zh_trad
     - simplifier@zh_simp
     - uniquifier
     - reverse_lookup_filter@pinyin_reverse_lookup
@@ -97,7 +96,7 @@ translator:
     - xform/^[abcdefghijklmnopqrstuvwxyz~]+$//
   disable_user_dict_for_patterns:
     - "^z.*$"
-  initial_quality: 0.75
+  initial_quality: 0.75	# 調整該編譯器出字優先度
 
 pinyin:
   tag: pinyin
@@ -112,7 +111,7 @@ pinyin:
     - "xform/([jqxy])v/$1u/"
   tips: "【漢拼】"
   closing_tips: "【蒼頡】"
-  initial_quality: 0.2
+  initial_quality: 0.2	# 調整該編譯器出字優先度
 
 jyutping:
   tag: jyutping
@@ -123,7 +122,7 @@ jyutping:
   suffix: ';'
   tips: "【粵拼】"
   closing_tips: "【蒼頡】"
-  initial_quality: 0.1
+  initial_quality: 0.1	# 調整該編譯器出字優先度
 
 #abc_segmentor:
 #  extra_tags:
@@ -155,7 +154,7 @@ pinyin_lookup:
     - "xform/([jqxy])v/$1u/"
   tips: "【漢拼反查】"
   closing_tips: "【蒼頡】"
-  initial_quality: 1
+  initial_quality: 1	# 調整該編譯器出字優先度
 
 jyutping_lookup:
   tag: jyutping_lookup
@@ -165,7 +164,7 @@ jyutping_lookup:
   dictionary: jyutping
   tips: "【粵拼反查】"
   closing_tips: "【蒼頡】"
-  initial_quality: 0.5
+  initial_quality: 0.5	# 調整該編譯器出字優先度
 
 pinyin_reverse_lookup:
   tags: [ pinyin_lookup ]
