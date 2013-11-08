@@ -1,26 +1,27 @@
-# Rime schema Middle Chinses Phonetics
+# Rime schema
 # encoding: utf-8
  
 schema:
-  schema_id: middle_chinese_phonetics
+  schema_id: middle_chinese_lookup
   name: 廣韻查詢
-  version: "1.0.3"
+  version: "2.0"
   author:
     - Polyhedron
     - 雪齋
-  description: 
-    基於Polyhedron、製作的中古漢語拼音〔亦稱「古韻羅馬字」〕製作
-    韻典網・廣韻 http://ytenx.org/kyonh/
+    - 佛振
+  description:
+    基於Polyhedron製作的中古漢語拼音（亦稱「古韻羅馬字」）製作
+    韻典網·廣韻 http://ytenx.org/kyonh/
     http://zh.wikipedia.org/wiki/User:Polyhedron/中古漢語拼音
     雪齋在此基礎上寫出反算廣韻漢字聲韻調算法
-    以蒼頡檢字法輸入反查廣韻，正常輸入卽默認爲反查模式
     顯示結果爲：「〖聲母〗介音【韻母】聲調」
     韻母皆舉平以賅上去入，脣音無開合，分重紐
     聲母可選是否區分輕重脣音，聲調可選是否區分陰陽
   dependencies:
+    - zyenpheng
     - cangjie5
     - luna_pinyin
-
+ 
 switches:
   - name: ascii_mode
     reset: 0
@@ -42,67 +43,116 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - affix_segmentor@pinyin
+    - affix_segmentor@cangjie
+    - affix_segmentor@reverse_lookup
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - echo_translator
     - punct_translator
-    - script_translator
-    - reverse_lookup_translator@cangjie
-    - reverse_lookup_translator@pinyin
+    - script_translator@zyenpheng
+    - table_translator@cangjie
+    - script_translator@pinyin
   filters:
+    - reverse_lookup_filter@middle_chinese_lookup
     - uniquifier
  
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba'
   delimiter: " '"
-  algebra:
-    - "xform/'//"
-    - abbrev/^([a-z]).+$/$1/
-    - abbrev/^([ptkgc]h).+$/$1/
-    - abbrev/^(zs).+$/$1/
-    - abbrev/^(ng).+$/$1/
-    - abbrev/^([czs][hs]?j).+$/$1/
-    - abbrev/^ph.+$/f/
-    - abbrev/^th.+$/r/
-    - abbrev/^kh.+$/x/
-    - abbrev/^ch.+$/v/
-    - abbrev/^ng.+$/w/
-
-translator:
-  dictionary: zyenpheng
  
+# 中古全拼
+abc_segmentor:
+  extra_tags: [ zyenpheng, cangjie ]
+ 
+zyenpheng:
+  # table_translator@zyenpheng
+  dictionary: zyenpheng
+  spelling_hints: 4
+  preedit_format:
+    - "xform/^([a-z]*)$/【廣韻】$1/"
+ 
+# 用倉頡輸入，加前綴C:
 cangjie:
+  # table_translator@cangjie
   dictionary: cangjie5
   enable_charset_filter: true
   preedit_format:
-    - "xform/^([a-z]*)$/【大宋重修廣韻】$1/"
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-  comment_format:  &symtable
+    - 'xform/^([a-z]*)$/【廣韻】$1｜\U$1\E/'
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz'~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符·～|"
+  # affix_segmentor@cangjie
+  tag: cangjie
+  prefix: 'C:'
+  suffix: ';'
+  tips: 〔倉頡〕
+  closing_tips: 〔廣韻〕
+ 
+# 用漢語拼音輸入，加前綴P:
+pinyin:
+  # script_translator@pinyin
+  dictionary: luna_pinyin
+  preedit_format:
+    - "xform/^([a-z]*)$/【廣韻】$1/"
+  # affix_segmentor@pinyin
+  tag: pinyin
+  prefix: 'P:'
+  suffix: ';'
+  tips: 〔拼音〕
+  closing_tips: 〔廣韻〕
+ 
+# 用倉頡或拼音反查，加前綴:
+# affix_segmentor@reverse_lookup
+reverse_lookup:
+  tag: reverse_lookup
+  extra_tags: [ cangjie, pinyin ]
+  prefix: ':'
+  suffix: ';'
+  tips: 〔反查〕
+  closing_tips: 〔廣韻〕
+ 
+key_binder:
+  import_preset: default
+ 
+punctuator:
+  import_preset: default
+ 
+recognizer:
+  import_preset: default
+  patterns:
+    cangjie: "C:[a-z']*;?$"
+    pinyin: "P:[a-z']*;?$"
+    reverse_lookup: "(?<![A-Z]):[a-z']*;?$"
+ 
+# 標註中古音
+middle_chinese_lookup:
+  tags:  # any
+  dictionary: zyenpheng
+  overwrite_comment: true  # 覆蓋其他提示
+  comment_format:
     - "xform/[^a-zA-Z0-9'_]/\x03、\x01/"
     - "xform/$/\x03/"
     - "xform/^/\x01/"
-
+    #
     - "xform/ng/ŋ/"
     - "xform/k\x03/ŋq\x03/"
     - "xform/t\x03/nq\x03/"
     - "xform/p\x03/mq\x03/"
-    - "xform/(\x01(?:th?|ch?|zs?|[dns]))r(?=[^iy'])/$1r'r/"
-    - "xform/(\x01(?:ph?|kh?|gh?|[bmhqjiy]|ŋ)j?[iy])eŋ/$1æŋ/"
+    - "xform/(\x01(th?|ch?|zs?|[dns]))r(?=[^iy'])/$1r'r/"
     - "xform/j(?![iy'])/ji/"
-    - "xform/(\x01(?:ch?|zs?|[sn])?[jl])(?=([iy]e([umn]|ŋ)?|i[imn]|yn)[dxhq]?)/$1'j/"
-    - "xform/(\x01(?:ch?|zs?|s))(?=(?:[iy]e(?:[umn]|ŋ)?|i[imn]|yn)[dxhq]?)/$1'j/"
-    - "xform/(\x01(?:ch?|zs?|s)rj?i)n/$1ɿn/"
-    - "xform/(\x01)(?!ph?|kh?|gh?|ŋ|[bmhqjiy])([^aeiouy]*y)n([xhq]?\x03)/$1$2ɿn$3/"
-    - "xform/(\x01)([^aeiouy]*jy)n([xhq]?\x03)/$1$2ɿn$3/"
-    - "xform/(\x01)(?!kh?|g|ŋ)([^aeioux]*)ia([xhq]?\x03)/$1$2'ria$3/"
-
-# 若需區分輕脣音，刪去以下前置之四箇「#」卽可
-#    - "xform/\x01ph(?=y(o[in]?|a[mnd]|[au]ŋ)|iu(ŋ)?)/N\x01L敷\x02/"
-#    - "xform/\x01p(?=y(o[in]?|a[mnd]|[au]ŋ)|iu(ŋ)?)/N\x01L非\x02/"
-#    - "xform/\x01b(?=y(o[in]?|a[mnd]|[au]ŋ)|iu(ŋ)?)/P\x01L奉\x02/"
-#    - "xform/\x01m(?=y(o[in]?|a[mnd]|[au]ŋ))/P\x01L微\x02/"
+    - "xform/(\x01(ch?|zs?|[sn])?)j(?=([iy]e[umnŋ]?|i[im]|[iy]n)[dxhq]?)/$1j'j/"
+    - "xform/(\x01(ph?|kh?|gh?|[bmŋhqjiy])j?[iy])eŋ/$1æŋ/"
+    - "xform/(\x01(ch?|zs?|s)rj?i)n/$1ɿn/"
+    - "xform/(\x01)(?!ph?|kh?|gh?|[bmŋhqjiy])(.*j?y)n([xhq]?\x03)/$1$2ɿn$3/"
+    - "xform/(\x01)(?!\x01(kh?|[gŋ]))(.*)ia([xhq]?\x03)/$1$3ria$4/"
+    # 若需區分輕脣音，刪去以下前置之四箇「#」卽可
+    #- "xform/\x01ph'?(?=y(o[in]?|a[mnd]|[au]ŋ)|iuŋ?)/N\x01L敷\x02/"
+    #- "xform/\x01p'?(?=y(o[in]?|a[mnd]|[au]ŋ)|iuŋ?)/N\x01L非\x02/"
+    #- "xform/\x01b'?(?=y(o[in]?|a[mnd]|[au]ŋ)|iuŋ?)/P\x01L奉\x02/"
+    #- "xform/\x01m'?(?=y(o[in]?|a[mnd]|[au]ŋ))/P\x01L微\x02/"
     - "xform/\x01ph/N\x01L滂\x02/"
     - "xform/\x01p/N\x01L幫\x02/"
     - "xform/\x01b/P\x01L並\x02/"
@@ -141,23 +191,23 @@ cangjie:
     - "xform/\x01([iy])/P\x01云\x02$1/"
     - "xform/\x01j/P\x01以\x02/"
     - "xform/\x01l/P\x01來\x02/"
-
+    #
     - "xform/'//"
- 
+    #
     - "xform/\x02(i?)uŋ([xhq]?\x03)/$1東$2/"
     - "xform/\x02(y)uŋ([xhq]?\x03)/$1鐘$2/"
-    - "xform/\x02(u)uŋ([xhq]?\x03)/$1冬$2/"
+    - "xform/\x02uuŋ([xhq]?\x03)/冬$1/"
     - "xform/\x02(r)uŋ([xhq]?\x03)/$1江$2/"
     - "xform/\x02([iy])aŋ([xhq]?\x03)/$1o陽$2/"
     - "xform/\x02(u?)aŋ([xhq]?\x03)/$1o唐$2/"
     - "xform/\x02(ru?)aŋ([xhq]?\x03)/$1o庚$2/"
-    - "xform/\x02([iy])æŋ([xhq]?\x03)/ɨ$1o庚$2/"
+    - "xform/\x02(j?)([iy])æŋ([xhq]?\x03)/$1ɨ$2o庚$3/"
     - "xform/\x02(ru?)eŋ([xhq]?\x03)/$1o耕$2/"
-    - "xform/\x02j?([iy])eŋ([xhq]?\x03)/jɨ$1o清$2/"
+    - "xform/\x02(j?)([iy])eŋ([xhq]?\x03)/$1ɨ$2o清$3/"
     - "xform/\x02(u?e)ŋ([xhq]?\x03)/$1o青$2/"
     - "xform/\x02([iy])ŋ([xhq]?\x03)/$1o蒸$2/"
     - "xform/\x02(u?)oŋ([xhq]?\x03)/$1o登$2/"
- 
+    #
     - "xform/\x02(j?)(y)ɿn([xhq]?\x03)/$1ɨ$2o諄$3/"
     - "xform/\x02(j?)(i)ɿn([xhq]?\x03)/$1ɨ$2o臻$3/"
     - "xform/\x02(j?)([iy])n([xhq]?\x03)/$1ɨ$2o眞$3/"
@@ -172,7 +222,7 @@ cangjie:
     - "xform/\x02(ru?)en([xhq]?\x03)/$1o山$2/"
     - "xform/\x02(j?)([iy])en([xhq]?\x03)/$1ɨ$2o仙$3/"
     - "xform/\x02(u?e)n([xhq]?\x03)/$1o先$2/"
- 
+    #
     - "xform/\x02(j?)(i)m([xhq]?\x03)/$1ɨ$2o侵$3/"
     - "xform/\x02(i)am([xhq]?\x03)/$1o嚴$2/"
     - "xform/\x02(y)am([xhq]?\x03)/$1o凡$2/"
@@ -182,7 +232,7 @@ cangjie:
     - "xform/\x02(j?)(i)em([xhq]?\x03)/$1ɨ$2o鹽$3/"
     - "xform/\x02(e)m([xhq]?\x03)/$1o添$2/"
     - "xform/\x02om([xhq]?\x03)/o覃$1/"
- 
+    #
     - "xform/\x02(r)au([xh]?\x03)/$1肴$2/"
     - "xform/\x02au([xh]?\x03)/豪$1/"
     - "xform/\x02(j?)(i)eu([xh]?\x03)/$1ɨ$2宵$3/"
@@ -190,7 +240,7 @@ cangjie:
     - "xform/\x02(i)u([xh]?\x03)/$1尤$2/"
     - "xform/\x02u([xh]?\x03)/侯$1/"
     - "xform/\x02(y)([xh]?\x03)/$1幽$2/"
- 
+    #
     - "xform/\x02(j?)([iy])e([xh]?\x03)/$1ɨ$2o支$3/"
     - "xform/\x02(j?)([iy])i([xh]?\x03)/$1ɨ$2o脂$3/"
     - "xform/\x02i([xh]?\x03)/o之$1/"
@@ -201,27 +251,26 @@ cangjie:
     - "xform/\x02(j?)([iy])e(d\x03)/$1ɨ$2o祭$3/"
     - "xform/\x02(ru?)e([xh]?\x03)/$1o佳$2/"
     - "xform/\x02(ru?)ai([xh]?\x03)/$1o皆$2/"
-    - "xform/\x02(u?e)([xh]?\x03)/$1o齊$2/"
-    - "xform/\x02(u)ai([xh]?\x03)/$1o灰$2/"
+    - "xform/\x02(u?e)([xh]?\x03)/$1齊$2/"
+    - "xform/\x02uai([xh]?\x03)/o灰$1/"
     - "xform/\x02ai([xh]?\x03)/o咍$1/"
- 
+    #
     - "xform/\x02([uiy])a([xh]?\x03)/$1o戈$2/"
     - "xform/\x02a([xh]?\x03)/o歌$1/"
     - "xform/\x02j?(r[ui]?)a([xh]?\x03)/$1o麻$2/"
     - "xform/\x02(i)o([xh]?\x03)/$1魚$2/"
     - "xform/\x02(y)o([xh]?\x03)/$1虞$2/"
     - "xform/\x02o([xh]?\x03)/模$1/"
- 
+    #
     - "xform/([NP])(\x01[^\x03dxhq]+)x\x03/$2】$1上/"
     - "xform/([NP])(\x01[^\x03dxhq]+)[dh]\x03/$2】$1去/"
     - "xform/([NP])(\x01[^\x03dxhq]+)q\x03/$2】$1入/"
     - "xform/([NP])(\x01[^\x03dxhq]+)\x03/$2】$1平/"
-# 若需啓用聲調區分「陰」、「陽」，刪去以下前置之兩箇「#」卽可
-#    - "derive/N/陰/"
-#    - "derive/P/陽/"
+    # 若需啓用聲調區分「陰」、「陽」，刪去以下前置之兩箇「#」卽可
+    #- "derive/N/陰/"
+    #- "derive/P/陽/"
     - "xform/N//"
     - "xform/P//"
-
     - "xform/\x01(L?)([^\x00-\x7f]{3})(j?ɨ)([iy])(o?)([^\x00-\x7f]{3})/〖$2〗重紐$3等\x01$1$5$4\x03【$6/"
     - "xform/\x01(L?)([^\x00-\x7f]{3})(u?)e(o?)([^\x00-\x7f]{3})/〖$2〗四等\x01$1$4$3\x03【$5/"
     - "xform/\x01(L?)([^\x00-\x7f]{3})r(u?)(o?)([^\x00-\x7f]{3})/〖$2〗二等\x01$1$4$3\x03【$5/"
@@ -232,22 +281,3 @@ cangjie:
     - "xform/\x01(?!L)o[uy]\x03/合/"
     - "xform/\x01(?!L)oi?\x03/開/"
     - "xform/\x01L?[a-z]*\x03//"
-  initial_quality: 0.9
-
-pinyin:
-  dictionary: luna_pinyin
-  preedit_format:
-    - "xform/^([a-z]*)$/【大宋重修廣韻】$1/"
-  comment_format:  *symtable
-  initial_quality: 0.2
-
-key_binder:
-  import_preset: default
-
-punctuator:
-  import_preset: default
-
-recognizer:
-  import_preset: default
-  patterns:
-    reverse_lookup: "^[a-z]*$"

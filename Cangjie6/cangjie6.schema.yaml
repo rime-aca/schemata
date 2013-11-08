@@ -70,7 +70,7 @@ speller:
   delimiter: " '"
 
 translator:
-  dictionary: &symtable
+  dictionary: &dict
     cangjie6.extended
 # 不想鍵詞的話可以把上條中「.extended」刪去
   enable_charset_filter: true
@@ -162,7 +162,8 @@ jyutping_lookup:
 
 pinyin_reverse_lookup:
   tags: [ pinyin_lookup ]
-  dictionary: *symtable
+  dictionary: *dict
+  overwrite_comment: true  # 覆蓋其他提示
   comment_format:
     - "xform/$/〕/"
     - "xform/^/〔/"
@@ -170,7 +171,8 @@ pinyin_reverse_lookup:
 
 jyutping_reverse_lookup:
   tags: [ jyutping_lookup ]
-  dictionary: *symtable
+  dictionary: *dict
+  overwrite_comment: true  # 覆蓋其他提示
   comment_format:
     - "xform/$/〕/"
     - "xform/^/〔/"
