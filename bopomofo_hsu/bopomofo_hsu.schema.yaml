@@ -1,17 +1,17 @@
-﻿# Rime schema
+# Rime schema
 # encoding: utf-8
 
 schema:
   schema_id: bopomofo_hsu
   name: 注音・標準許式 ₀.₄ᵦ
-  version: "0.4β2"
+  version: "0.4β3"
   author:
     - 佛振 <chen.sst@gmail.com>
-    - Patrick <ipatrickmac@gmail.com>
+    - Patrick <ipatrickmac@me.com>
   description: |
     標準「許式」佈局的註音輸入方案
     默認以空格輸入陰平調（不標）
-    以「dfjs」輸入聲調「ˊˇˋ˙」 
+    以「dfjs」輸入聲調「ˊˇˋ˙」
     Enter候選字上屏
 
     dependencies:

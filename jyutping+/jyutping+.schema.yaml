@@ -1,4 +1,4 @@
-﻿# Rime schema
+# Rime schema
 # encoding: utf-8
 
 schema:
@@ -7,7 +7,7 @@ schema:
   version: "0.9β4"
   author:
     - 佛振 <chen.sst@gmail.com>
-    - Patrick <ipatrickmac@gmail.com>
+    - Patrick <ipatrickmac@me.com>
   description: |
     由默認ヶ「粵拼」方案改良而成
     採用『香港語言學會粵語拼音方案』
@@ -104,7 +104,7 @@ translator:
     - xform/a([iu])/ɐ\U$1/	米mɐi
     - xform/(aa|r)([ptk])/Aː\U$2]/	握aːk̚
     - xform/a([ptk])/ɐ\U$1]/	呃ɐk̚
-    - xform/(aa|r)/Aː/	嗎maː	
+    - xform/(aa|r)/Aː/	嗎maː
     - xform/b/P/	吧paː
     - xform/c/T͡sH/	差tsʰaː
     - xform/d/T/	打taː

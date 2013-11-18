@@ -1,4 +1,4 @@
-﻿# Rime schema
+# Rime schema
 # vim: set sw=2 sts=2 et:
 # encoding: utf-8
 
@@ -7,7 +7,7 @@ schema:
   name: 注音文 ₀.₅₁
   version: "0.51"
   author:
-    - Patrick <ipatrickmac@gmail.com>
+    - Patrick <ipatrickmac@me.com>
   description:
     注音文
 

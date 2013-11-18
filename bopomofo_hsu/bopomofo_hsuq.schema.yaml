@@ -1,13 +1,13 @@
-﻿# Rime schema
+# Rime schema
 # encoding: utf-8
 
 schema:
   schema_id: bopomofo_hsuq
   name: 注音・許式Q ₀.₄
-  version: "0.41"
+  version: "0.42"
   author:
     - 佛振 <chen.sst@gmail.com>
-    - Patrick <ipatrickmac@gmail.com>
+    - Patrick <ipatrickmac@me.com>
   description: |
     注音符號輸入，採用「許式」鍵盤排列。
     以qdfjs 輸入聲調「ˉˊˇˋ˙」 Enter候選字上屏
