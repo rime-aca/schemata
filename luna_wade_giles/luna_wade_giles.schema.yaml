@@ -164,6 +164,8 @@ key_binder:
     - { when: composing, accept: Tab, send: Page_Down }
     - { when: paging, accept: minus, send: Page_Up }
     - { when: has_menu, accept: equal, send: Page_Down }
+    - { when: always, accept: Control+Shift+4, toggle: dzing }
+    - { when: always, accept: Control+Shift+dollar, toggle: dzing }
 
 recognizer:
   patterns:
