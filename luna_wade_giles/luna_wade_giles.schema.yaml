@@ -1,18 +1,15 @@
-﻿# Rime schema
+# Rime schema
 # encoding: utf-8
 
 schema:
   schema_id: luna_wade_giles
-  name: 朙月拼音・韋翟式 ₀.₂
-  version: "0.2"
+  name: 朙月拼音・韋翟式 ₀.₄
+  version: "0.4"
   author:
     - Patrick <ipatrickmac@qq.com>
   description: |
     北京官話威妥瑪翟理斯式拼音
     Wade–Giles Romanization System
-
-    dependencies:
-    - luna_pinyin
 
 switches:
   - name: ascii_mode
@@ -20,8 +17,14 @@ switches:
     states: [ 中文, 西文 ]
   - name: half_shape
     states: [ 全角, 半角 ]
-  - name: simplification
-    states: [ 傳統, 簡化 ]
+#  - name: simplification
+#    states: [ 傳統, 簡化 ]
+  - options: [ zh_trad, dzing, nippon ]
+    states:
+      - 字形 → 傳統漢字
+      - 字形 → 叔寍正體
+      - 字形 → 日本新字形
+    reset: 0
 
 engine:
   processors:
@@ -42,16 +45,17 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - r10n_translator
+    - table_translator@custom_phrase
     - reverse_lookup_translator
+    - script_translator
   filters:
-    - simplifier
+    - simplifier@dzing
+    - simplifier@nippon
     - uniquifier
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba'
-  initials: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " "
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
   algebra:
     - erase/^xx$/
     - abbrev/^([a-z]).+$/$1/
@@ -65,7 +69,6 @@ speller:
     - derive/([dtngkhrzcs])o(u|ng)$/$1o/
     - derive/ong$/on/
     - derive/ao$/oa/
-    - derive/ao$/au/
     - derive/([iu])a(o|ng?)$/a$1$2/
 
 translator:
@@ -110,6 +113,14 @@ translator:
     - xform/([nljqxy])v/$1ü/
     - xform/([nl])u(e)/$1üe/
 
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
 reverse_lookup:
   dictionary: stroke
   enable_completion: true
@@ -119,64 +130,18 @@ reverse_lookup:
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 
+dzing:
+  option_name: dzing
+  opencc_config: dzing.ini
+  tips: all
+
+nippon:
+  option_name: nippon
+  opencc_config: nippon.ini
+  tips: all
+
 punctuator:
-  full_shape:
-    " " : { commit: "　" }
-    "<" : { commit: "，" }
-    ">" : { commit: "。" }
-    "?" : [ ？, ／, "/", ÷ ]
-    ":" : [ ：, ； ]
-    "'" : { pair: [ "‘", "’" ] }
-    "\"" : { pair: [ "“", "”" ] }
-    "\\" : [ 、, ＼, "\\" ]
-    "|" : [ ・, ｜, "|", "§", "¦" ]
-    "`" : [ ｀, "`" ]
-    "~" : [ 〜, "~", ～, 〰 ]
-    "!" : { commit: ！ }
-    "@" : [ ＠, "@", ☯ ]
-    "#" : [ ＃, "#", ⌘ ]
-    "%" : [ ％, "%", "°", "℃" ]
-    "$" : [ ￥, "$", "€", "£", "¥", "¢", "¤" ]
-    "^" : { commit: …… }
-    "&" : [ ＆, "&" ]
-    "*" : [ ＊, "*", ・, ×, ※, ❂, · ]
-    "(" : （
-    ")" : ）
-    "_" : [ ——, －, "-" ]
-    "+" : [ ＋, "+" ]
-    "=" : [ ＝, "=" ]
-    "[" : [ 「, 【, 《, 〔, ［ ]
-    "]" : [ 」, 】, 》, 〕, ］ ]
-    "{" : [ 『, 〖, 〈, ｛ ]
-    "}" : [ 』, 〗, 〉, ｝ ]
-  half_shape:
-    "<" : { commit: "，" }
-    ">" : { commit: "。" }
-    "?" : [ ？, ／, "/", ÷ ]
-    ":" : [ ：, ； ]
-    "'" : { pair: [ "‘", "’" ] }
-    "\"" : { pair: [ "“", "”" ] }
-    "\\" : [ 、, "\\", ＼ ]
-    "|" : [ ・, "|", ｜, "§", "¦" ]
-    "`" : "`"
-    "~" : "~"
-    "!" : { commit: ！ }
-    "@" : "@"
-    "#" : "#"
-    "%" : [ "%", ％, "°", "℃" ]
-    "$" : [ ￥, "$", "€", "£", "¥", "¢", "¤" ]
-    "^" : { commit: …… }
-    "&" : "&"
-    "*" : [ "*", ＊, ・, ×, ※, ❂, · ]
-    "(" : （
-    ")" : ）
-    "_" : [ ——, －, "-" ]
-    "+" : "+"
-    "=" : "="
-    "[" : [ 「, 【, 《, 〔, ［ ]
-    "]" : [ 」, 】, 》, 〕, ］ ]
-    "{" : [ 『, 〖, 〈, ｛ ]
-    "}" : [ 』, 〗, 〉, ｝ ]
+  import_preset: symbols
 
 key_binder:
   import_preset: default
@@ -206,3 +171,4 @@ recognizer:
     uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
     reverse_lookup: "`[a-z]*'?$"
+    punct: '^/([A-Z|a-z]*|[0-9]|10)$'
