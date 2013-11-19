@@ -11,7 +11,7 @@
 
 ---
 name: hangyl_hanja
-version: "0.3"
+version: "0.4"	#2013.11.19
 sort: by_weight	#original
 use_preset_vocabulary: true
 ...
@@ -246,6 +246,7 @@ use_preset_vocabulary: true
 玠	gai	개
 磕	gai	개
 闓	gai	개
+豈*	gi	기
 喀	gaig	객
 客	gaig	객
 客地
@@ -255,6 +256,8 @@ use_preset_vocabulary: true
 硜	gaiq	갱
 賡	gaiq	갱
 鏗	gaiq	갱
+更*	gaiq	갱
+更*	gieq	경
 醵	giag	갹
 倨	ge	거
 去	ge	거
@@ -287,6 +290,9 @@ use_preset_vocabulary: true
 裾	ge	거
 駏	ge	거
 舉	ge	거
+﨔*
+車*	ca	차
+車*	ge	거
 去來
 乾	gen	건
 件	gen	건
@@ -364,7 +370,6 @@ use_preset_vocabulary: true
 蠲	gien	견
 鰹	gien	견
 見	hien	현
-見習
 見積
 抉	giel	결
 決	giel	결
@@ -495,6 +500,7 @@ use_preset_vocabulary: true
 薊	giei	계
 雞	giei	계
 髻	giei	계
+契	gyl	글
 繼續
 計座
 古	go	고
@@ -564,6 +570,8 @@ use_preset_vocabulary: true
 靠	go	고
 鴣	go	고
 鷱	go	고
+賈*	ga	가
+賈*	go	고
 苦待
 苦生
 哭	gog	곡
@@ -578,6 +586,7 @@ use_preset_vocabulary: true
 縠	gog	곡
 觳	gog	곡
 轂	gog	곡
+﨏*
 困	gon	곤
 坤	gon	곤
 崑	gon	곤
@@ -608,6 +617,7 @@ use_preset_vocabulary: true
 榾	gol	골
 矻	gol	골
 鶻	gol	골
+滑*	hoal	활
 供	goq	공
 公	goq	공
 共	goq	공
@@ -706,6 +716,9 @@ use_preset_vocabulary: true
 顴	goan	관
 髖	goan	관
 鸛	goan	관
+館*	goan
+串*	goan	관
+串*	goj	곶
 刮	goal	괄
 恝	goal	괄
 括	goal	괄
@@ -818,7 +831,6 @@ use_preset_vocabulary: true
 鵁	gio	교
 齩	gio	교
 教	gio	교
-僑胞
 龜	giun	균
 丘	gu	구
 久	gu	구
@@ -926,6 +938,7 @@ use_preset_vocabulary: true
 句	gui	귀
 龜	gui	귀
 求景
+蘒*	cu	추
 國	gug	국
 局	gug	국
 菊	gug	국
@@ -1009,6 +1022,9 @@ use_preset_vocabulary: true
 歸	gui	귀
 貴	gui	귀
 鬼	gui	귀
+句*	gu	구
+句*	gui	귀
+龜*	gui	귀
 叫	giu	규
 圭	giu	규
 奎	giu	규
@@ -1050,6 +1066,7 @@ use_preset_vocabulary: true
 鈞	giun	균
 囷	giun	균
 麏	giun	균
+龜*	gui	귀
 橘	giul	귤
 克	gyg	극
 剋	gyg	극
@@ -1088,8 +1105,8 @@ use_preset_vocabulary: true
 跟	gyn	근
 釿	gyn	근
 靳	gyn	근
-近似
 契	gyl	글
+契*	giei	계
 今	gym	금
 妗	gym	금
 擒	gym	금
@@ -1108,6 +1125,8 @@ use_preset_vocabulary: true
 嶔	gym	금
 笒	gym	금
 黅	gym	금
+金*	gim	김
+金*	gym	금
 伋	gyb	급
 及	gyb	급
 急	gyb	급
@@ -1121,6 +1140,7 @@ use_preset_vocabulary: true
 礏	gyb	급
 笈	gyb	급
 芨	gyb	급
+﨤*	gyb	급
 亘	gyq	긍
 兢	gyq	긍
 矜	gyq	긍
@@ -1227,6 +1247,7 @@ use_preset_vocabulary: true
 鬐	gi	기
 鰭	gi	기
 黖	gi	기
+﨑*	gi	기
 緊	gin	긴
 佶	gil	길
 吉	gil	길
@@ -1249,8 +1270,33 @@ use_preset_vocabulary: true
 梛	na	나
 糥	na	나
 糯	na	나
+喇*	la	라
+癩*	la	라
+羅*	la	라
+蘿*	la	라
+螺*	la	라
+裸*	la	라
+邏*	la	라
+喇*	na	나
+奈*	na	나
+懶*	na	나
+蘿*	na	나
+螺*	na	나
+裸*	na	나
+邏*	na	나
+奈*	nai	내
 諾	lag	락
 諾	nag	낙
+樂*	lag	락
+洛*	lag	락
+烙*	lag	락
+珞*	lag	락
+落*	lag	락
+酪*	lag	락
+駱*	lag	락
+落*	nag	낙
+酪*	nag	낙
+駱*	nag	낙
 煖	na	나
 暖	nan	난
 欄	nan	난
@@ -1260,6 +1306,16 @@ use_preset_vocabulary: true
 煗	nan	난
 赧	nan	난
 餪	nan	난
+亂*	lan	란
+卵*	lan	란
+欄*	lan	란
+爛*	lan	란
+蘭*	lan	란
+鸞*	lan	란
+亂*	nan	난
+卵*	nan	난
+蘭*	nan	난
+鸞*	nan	난
 捏	nal	날
 捺	nal	날
 南	nam	남
@@ -1270,16 +1326,33 @@ use_preset_vocabulary: true
 喃	nam	남
 柟	nam	남
 娚	nam	남
-男女老少
+嵐*	lam	람
+濫*	lam	람
+藍*	lam	람
+襤*	lam	람
+嵐*	nam	남
+藍*	nam	남
+襤*	nam	남
 男便
 納	nab	납
 衲	nab	납
+拉*	lab	랍
+臘*	lab	랍
+蠟*	lab	랍
+拉*	nab	납
+臘*	nab	납
+蠟*	nab	납
 囊	naq	낭
 娘	naq	낭
 廊	naq	낭
 朗	naq	낭
-郎	naq	낭
 曩	naq	낭
+廊*	laq	랑
+朗*	laq	랑
+浪*	laq	랑
+狼*	laq	랑
+郎*	laq	랑
+郎*	naq	낭
 奈	na	나
 乃	nai	내
 內	nai	내
@@ -1291,6 +1364,10 @@ use_preset_vocabulary: true
 嬭	nai	내
 迺	nai	내
 鼐	nai	내
+來*	lai
+來*	nai
+冷*	laiq	랭
+冷*	naiq	냉
 女	nie	녀
 女	qie	여
 女俳優
@@ -1308,6 +1385,7 @@ use_preset_vocabulary: true
 念	qiem	염
 捻	qiem	염
 念慮
+寧	lieq	령
 寧	nieq	녕
 寗	nieq	녕
 佞	nieq	녕
@@ -1329,6 +1407,38 @@ use_preset_vocabulary: true
 猱	no	노
 笯	no	노
 臑	no	노
+勞*	lo	로
+擄*	lo	로
+櫓*	lo	로
+爐*	lo	로
+盧*	lo	로
+老*	lo	로
+蘆*	lo	로
+虜*	lo	로
+路*	lo	로
+露*	lo	로
+魯*	lo	로
+鷺*	lo	로
+勞*	no	노
+擄*	no	노
+老*	no	노
+虜*	no	노
+路*	no	노
+露*	no	노
+魯*	no	노
+鷺*	no	노
+碌*	log	록
+祿*	log	록
+綠*	log	록
+菉*	log	록
+錄*	log	록
+鹿*	log	록
+綠*	nog	녹
+菉*	nog	녹
+錄*	nog	녹
+鹿*	nog	녹
+論*	lon	론
+論*	non	논
 濃	noq	농
 膿	noq	농
 農	noq	농
@@ -1336,9 +1446,22 @@ use_preset_vocabulary: true
 噥	noq	농
 穠	noq	농
 醲	noq	농
+壟*	loq	롱
+弄*	loq	롱
+籠*	loq	롱
+聾*	loq	롱
+壟*	noq	농
+弄*	noq	농
+聾*	noq	농
 惱	noi	뇌
 腦	noi	뇌
 餒	noi	뇌
+牢*	loi	뢰
+磊*	loi	뢰
+賂*	loi	뢰
+雷*	loi	뢰
+賂*	noi	뇌
+雷*	noi	뇌
 尿	nio	뇨
 嫋	nio	뇨
 嬲	nio	뇨
@@ -1349,6 +1472,18 @@ use_preset_vocabulary: true
 尿	qio	요
 啂	nu	누
 耨	nu	누
+壘*	lu	루
+屢*	lu	루
+樓*	lu	루
+淚*	lu	루
+漏*	lu	루
+累*	lu	루
+縷*	lu	루
+陋*	lu	루
+壘*	nu	누
+屢*	nu	누
+累*	nu	누
+陋*	nu	누
 嫩	nun	눈
 訥	nul	눌
 吶	nul	눌
@@ -1360,7 +1495,22 @@ use_preset_vocabulary: true
 杻	qiu	유
 紐	qiu	유
 衄	niug	뉵
+勒*	lyg	륵
+肋*	lyg	륵
+勒*	nyg	늑
+肋*	nyg	늑
+凜*	lym	름
+凜*	nym	늠
 能	nyq	능
+凌*	lyq	릉
+稜*	lyq	릉
+綾*	lyq	릉
+菱*	lyq	릉
+陵*	lyq	릉
+凌*	nyq	능
+綾*	nyq	능
+菱*	nyq	능
+陵*	nyq	능
 能熟
 能通
 尼	ni	니
@@ -1382,7 +1532,6 @@ use_preset_vocabulary: true
 多	da	다
 茶	da	다
 爹	da	다
-多情
 丹	dan	단
 亶	dan	단
 但	dan	단
@@ -1488,6 +1637,7 @@ use_preset_vocabulary: true
 鐺	daq	당
 餳	daq	당
 餹	daq	당
+糖	taq	탕
 當付
 當身
 唐慌
@@ -1513,7 +1663,6 @@ use_preset_vocabulary: true
 汏	dai	대
 碓	dai	대
 鐓	dai	대
-對答
 大賣出
 代身
 貸切
@@ -1584,9 +1733,9 @@ use_preset_vocabulary: true
 饕	do	도
 鼗	do	도
 度	tag	탁
+都*	do	도
+﨩*	do	도
 都賣
-圖謀
-圖章
 毒	dog	독
 瀆	dog	독
 牘	dog	독
@@ -1599,6 +1748,7 @@ use_preset_vocabulary: true
 讀	dog	독
 櫝	dog	독
 黷	dog	독
+讀	du	두
 墩	don	돈
 惇	don	돈
 敦	don	돈
@@ -1669,6 +1819,8 @@ use_preset_vocabulary: true
 蚪	du	두
 蠹	du	두
 陡	du	두
+讀*	dog	독
+﨣*	du	두
 屯	dun	둔
 臀	dun	둔
 芚	dun	둔
@@ -1722,6 +1874,8 @@ use_preset_vocabulary: true
 螺	na	나
 裸	na	나
 邏	na	나
+拏*	la	라
+拏*	na	나
 洛	lag	락
 烙	lag	락
 珞	lag	락
@@ -1737,6 +1891,9 @@ use_preset_vocabulary: true
 落	nag	낙
 酪	nag	낙
 駱	nag	낙
+諾*	lag	낙
+樂*	nag	낙
+諾*	nag	낙
 亂	lan	란
 卵	lan	란
 欄	lan	란
@@ -1756,6 +1913,8 @@ use_preset_vocabulary: true
 卵	nan	난
 爛	nan	난
 鸞	nan	난
+丹*	dan	단
+丹*	lan	란
 剌	lal	랄
 辣	lal	랄
 埒	lal	랄
@@ -1784,6 +1943,7 @@ use_preset_vocabulary: true
 拉	nab	납
 臘	nab	납
 蠟	nab	납
+郎	laq
 廊	laq	랑
 朗	laq	랑
 浪	laq	랑
@@ -1798,8 +1958,10 @@ use_preset_vocabulary: true
 莨	laq	랑
 蜋	laq	랑
 閬	laq	랑
+廊	naq	낭
 浪	naq	낭
 狼	naq	낭
+郎	naq	낭
 來	lai	래
 崍	lai	래
 徠	lai	래
@@ -1896,6 +2058,7 @@ use_preset_vocabulary: true
 曆	qieg	역
 歷	qieg	역
 轢	qieg	역
+鍊	lien
 憐	lien	련
 戀	lien	련
 攣	lien	련
@@ -1909,12 +2072,15 @@ use_preset_vocabulary: true
 孌	lien	련
 楝	lien	련
 湅	lien	련
+輦	nien	년
 憐	qien	연
 戀	qien	연
 璉	qien	연
 練	qien	연
 聯	qien	연
+蓮	qien	연
 輦	qien	연
+連	qien	연
 鍊	qien	연
 冽	liel	렬
 列	liel	렬
@@ -1937,6 +2103,7 @@ use_preset_vocabulary: true
 奩	liem	렴
 瀲	liem	렴
 磏	liem	렴
+廉	qiem	염
 殮	qiem	염
 簾	qiem	염
 獵	lieb	렵
@@ -1946,7 +2113,6 @@ use_preset_vocabulary: true
 令	lieq	령
 伶	lieq	령
 囹	lieq	령
-寧	lieq	령
 岺	lieq	령
 嶺	lieq	령
 怜	lieq	령
@@ -1985,6 +2151,9 @@ use_preset_vocabulary: true
 零	qieq	영
 靈	qieq	영
 領	qieq	영
+寧*	lieq	령
+寧*	nieq	녕
+寧*	qieq	영
 例	liei	례
 澧	liei	례
 禮	liei	례
@@ -1996,6 +2165,8 @@ use_preset_vocabulary: true
 禮	qiei	예
 醴	qiei	예
 隸	qiei	예
+礼	qiei	예
+礼*	qiei	예
 禮式場
 勞	lo	로
 撈	lo	로
@@ -2040,6 +2211,8 @@ use_preset_vocabulary: true
 露	no	노
 魯	no	노
 鷺	no	노
+怒*	lo
+怒*	no
 碌	log	록
 祿	log	록
 綠	log	록
@@ -2128,12 +2301,14 @@ use_preset_vocabulary: true
 鐐	lio	료
 飂	lio	료
 飉	lio	료
+了	qio	료
 僚	qio	요
 寮	qio	요
 料	qio	요
 燎	qio	요
 療	qio	요
 蓼	qio	요
+遼	qio	요
 龍	lioq	룡
 龒	lioq	룡
 龍	qioq	용
@@ -2220,6 +2395,7 @@ use_preset_vocabulary: true
 律	qiul	율
 慄	qiul	율
 栗	qiul	율
+率*	qiul	율
 隆	liuq	륭
 癃	liuq	륭
 窿	liuq	륭
@@ -2299,6 +2475,7 @@ use_preset_vocabulary: true
 裡	qi	이
 里	qi	이
 離	qi	이
+異*	qi	이
 吝	lim	림
 悋	lim	림
 粼	lim	림
@@ -2510,7 +2687,6 @@ use_preset_vocabulary: true
 銘	mieq	명
 鳴	mieq	명
 洺	mieq	명
-銘心
 袂	miei	몌
 侮	mo	모
 冒	mo	모
@@ -2775,6 +2951,7 @@ use_preset_vocabulary: true
 胖	ban	반
 螌	ban	반
 頖	ban	반
+飯*	ban
 勃	bal	발
 拔	bal	발
 撥	bal	발
@@ -2858,6 +3035,8 @@ use_preset_vocabulary: true
 扒	bai	배
 琲	bai	배
 蓓	bai	배
+北*	bai
+北*	bug
 伯	baig	백
 佰	baig	백
 帛	baig	백
@@ -2881,6 +3060,7 @@ use_preset_vocabulary: true
 膰	ben	번
 蘩	ben	번
 袢	ben	번
+磻*	ben	번
 伐	bel	벌
 筏	bel	벌
 罰	bel	벌
@@ -2935,6 +3115,8 @@ use_preset_vocabulary: true
 駢	bien	변
 骿	bien	변
 鴘	bien	변
+便*	bien	변
+便*	pien	편
 別	biel	별
 瞥	biel	별
 鱉	biel	별
@@ -3020,6 +3202,7 @@ use_preset_vocabulary: true
 復	bu	부
 覆	bu	부
 輻	pog	폭
+福*	pog	폭
 福券
 福德房
 本	bon	본
@@ -3117,6 +3300,9 @@ use_preset_vocabulary: true
 鮒	bu	부
 麩	bu	부
 不	bul	불
+復*	bog	북
+復*	bu	부
+﨓*	bu	부
 富者
 副統領
 北	bai	배
@@ -3172,6 +3358,8 @@ use_preset_vocabulary: true
 韍	bul	불
 髴	bul	불
 黻	bul	불
+不*	bu	bu
+不*	bul	불
 崩	buq	붕
 朋	buq	붕
 棚	buq	붕
@@ -3181,7 +3369,6 @@ use_preset_vocabulary: true
 堋	buq	붕
 漰	buq	붕
 鬅	buq	붕
-繃帶
 丕	bi	비
 備	bi	비
 匕	bi	비
@@ -3267,6 +3454,7 @@ use_preset_vocabulary: true
 騛	bi	비
 髀	bi	비
 鼙	bi	비
+泌*	bi	비
 嚬	bin	빈
 嬪	bin	빈
 彬	bin	빈
@@ -3386,12 +3574,17 @@ use_preset_vocabulary: true
 耜	sa	사
 砂糖
 辭讓
+飼*	sa
 削	sag	삭
 朔	sag	삭
 槊	sag	삭
 爍	sag	삭
 蒴	sag	삭
 鑠	sag	삭
+索*	sag
+數*	sag	삭
+索*	saig
+數*	su	수
 傘	san	산
 刪	san	산
 山	san	산
@@ -3431,7 +3624,8 @@ use_preset_vocabulary: true
 糝	sam	삼
 釤	sam	삼
 鬖	sam	삼
-三輪車
+參*	cam
+參*	sam
 揷	sab	삽
 澁	sab	삽
 鈒	sab	삽
@@ -3483,10 +3677,10 @@ use_preset_vocabulary: true
 鎟	saq	상
 顙	saq	상
 鬺	saq	상
+祥*	saq	상
 商街
 相對方
 傷處
-上回
 塞	sai	새
 璽	sai	새
 賽	sai	새
@@ -3500,13 +3694,16 @@ use_preset_vocabulary: true
 槭	saig	색
 濇	saig	색
 瀒	saig	색
+塞*	sai	새
+塞*	saig	색
 牲	saiq	생
 生	saiq	생
 甥	saiq	생
 笙	saiq	생
 眚	saiq	생
 鉎	saiq	생
-生日
+省*	saiq	생
+﨡*	saiq	생
 墅	se	서
 壻	se	서
 嶼	se	서
@@ -3671,6 +3868,8 @@ use_preset_vocabulary: true
 躡	seb	섭
 鑷	seb	섭
 顳	seb	섭
+葉*	qieb	엽
+葉*	seb	섭
 省	saiq	생
 城	seq	성
 姓	seq	성
@@ -3706,7 +3905,9 @@ use_preset_vocabulary: true
 洒	sei	세
 繐	sei	세
 蛻	sei	세
-世上
+說*	qiel	열
+說*	sei	세
+說*	sel	설
 洗手
 召	so	소
 嘯	so	소
@@ -3814,6 +4015,7 @@ use_preset_vocabulary: true
 惢	soai	쇄
 曬	soai	쇄
 瑣	soai	쇄
+殺*	soai	쇄
 衰	soi	쇠
 釗	soi	쇠
 數	sag	삭
@@ -4045,6 +4247,7 @@ use_preset_vocabulary: true
 是非
 始作
 試合
+識	ji	지
 埴	sig	식
 寔	sig	식
 式	sig	식
@@ -4098,14 +4301,14 @@ use_preset_vocabulary: true
 贐	sin	신
 頣	sin	신
 駪	sin	신
-身世
+辰*	jin	진
+神*	sin	신
 失	sil	실
 室	sil	실
 實	sil	실
 悉	sil	실
 蟋	sil	실
 飋	sil	실
-失手
 審	sim	심
 尋	sim	심
 心	sim	심
@@ -4121,11 +4324,15 @@ use_preset_vocabulary: true
 葚	sim	심
 鐔	sim	심
 鱏	sim	심
-甚至於
+沈*	sim	심
+什	jib	집
 什	sib	십
 十	sib	십
 辻	sib	십
+拾*	sib	십
+拾*	syb	습
 雙	ssaq	쌍
+﨎*	ssaq	쌍
 氏	ssi	씨
 亞	qa	아
 俄	qa	아
@@ -4211,6 +4418,7 @@ use_preset_vocabulary: true
 遏	qal	알
 頞	qal	알
 鴶	qal	알
+﨟*	qal	알
 唵	qam	암
 岩	qam	암
 巖	qam	암
@@ -4277,7 +4485,6 @@ use_preset_vocabulary: true
 藹	qai	애
 靉	qai	애
 騃	qai	애
-愛人
 厄	qaig	액
 扼	qaig	액
 掖	qaig	액
@@ -4308,6 +4515,8 @@ use_preset_vocabulary: true
 耶	qia	야
 野	qia	야
 埜	qia	야
+若*	qia	야
+若*	qiag	약
 若	qia	야
 弱	qiag	약
 約	qiag	약
@@ -4324,6 +4533,9 @@ use_preset_vocabulary: true
 鰯	qiag	약
 鶸	qiag	약
 龠	qiag	약
+掠*	liag	략
+略*	liag	략
+掠*	qiag	약
 約婚
 佯	qiaq	양
 凉	qiaq	양
@@ -4360,8 +4572,20 @@ use_preset_vocabulary: true
 鑲	qiaq	양
 颺	qiaq	양
 驤	qiaq	양
-洋服
-陽傘
+亮*	liaq	량
+兩*	liaq	량
+凉*	liaq	량
+梁*	liaq	량
+糧*	liaq	량
+良*	liaq	량
+諒*	liaq	량
+量*	liaq	량
+亮*	qiaq	양
+兩*	qiaq	양
+凉*	qiaq	양
+良*	qiaq	양
+諒*	qiaq	양
+量*	qiaq	양
 養齒
 圄	qe	어
 御	qe	어
@@ -4435,6 +4659,23 @@ use_preset_vocabulary: true
 轝	qie	여
 餘	qie	여
 舁	qie	여
+勵*	lie	려
+廬*	lie	려
+閭*	lie	려
+驪*	lie	려
+麗*	lie	려
+黎*	lie	려
+女*	nie	녀
+呂*	qie	여
+女*	qie	여
+廬*	qie	여
+旅*	qie	여
+濾*	qie	여
+礪*	qie	여
+閭*	qie	여
+驪*	qie	여
+麗*	qie	여
+黎*	qie	여
 如否
 易	qi	이
 亦	qieg	역
@@ -4450,6 +4691,12 @@ use_preset_vocabulary: true
 懌	qieg	역
 淢	qieg	역
 閾	qieg	역
+力*	lieg	력
+曆*	lieg	력
+歷*	lieg	력
+轢*	lieg	력
+力*	qieg	역
+轢*	qieg	역
 亦是
 嚥	qien	연
 堧	qien	연
@@ -4501,13 +4748,41 @@ use_preset_vocabulary: true
 讌	qien	연
 鷰	qien	연
 輭	qien	연
+憐*	lien	련
+戀*	lien	련
+練*	lien	련
+蓮*	lien	련
+連*	lien	련
+鍊*	lien	련
+年*	nien	년
+撚*	nien	년
+輦*	nien	년
+鍊*	qien
+年*	qien	연
+憐*	qien	연
+戀*	qien	연
+撚*	qien	연
+漣*	qien	연
+煉*	qien	연
+璉*	qien	연
+秊*	qien	연
+練*	qien	연
+聯*	qien	연
+輦*	qien	연
 悅	qiel	열
 涅	qiel	열
 熱	qiel	열
 閱	qiel	열
 噎	qiel	열
+列*	liel	렬
+劣*	liel	렬
+烈*	liel	렬
+裂*	liel	렬
+列*	qiel	열
+咽*	qiel	열
+裂*	qiel	열
+咽*	qin	인
 厭	qiem	염
-廉	qiem	염
 染	qiem	염
 炎	qiem	염
 焰	qiem	염
@@ -4529,6 +4804,14 @@ use_preset_vocabulary: true
 饜	qiem	염
 魘	qiem	염
 黶	qiem	염
+廉*	liem	렴
+念*	niem	념
+捻*	niem	념
+廉*	qiem	염
+念*	qiem	염
+捻*	qiem	염
+殮*	qiem	염
+簾*	qiem	염
 曄	qieb	엽
 燁	qieb	엽
 葉	qieb	엽
@@ -4537,6 +4820,7 @@ use_preset_vocabulary: true
 爗	qieb	엽
 靨	qieb	엽
 葉	seb	섭
+獵*	qieb	엽
 葉書
 塋	qieq	영
 嶸	qieq	영
@@ -4577,6 +4861,26 @@ use_preset_vocabulary: true
 贏	qieq	영
 郢	qieq	영
 韺	qieq	영
+令*	lieq	령
+囹*	lieq	령
+嶺*	lieq	령
+怜*	lieq	령
+玲*	lieq	령
+瑩*	lieq	령
+羚*	lieq	령
+聆*	lieq	령
+鈴*	lieq	령
+零*	lieq	령
+靈*	lieq	령
+領*	lieq	령
+令*	qieq	영
+囹*	qieq	영
+嶺*	qieq	영
+怜*	qieq	영
+鈴*	qieq	영
+零*	qieq	영
+靈*	qieq	영
+領*	qieq	영
 乂	qiei	예
 倪	qiei	예
 刈	qiei	예
@@ -4616,6 +4920,13 @@ use_preset_vocabulary: true
 鯢	qiei	예
 鷖	qiei	예
 麑	qiei	예
+例*	liei	례
+禮*	liei	례
+醴*	liei	례
+隸*	liei	례
+例*	qiei	예
+醴*	qiei	예
+隸*	qiei	예
 五	qo	오
 伍	qo	오
 俉	qo	오
@@ -4670,6 +4981,8 @@ use_preset_vocabulary: true
 隩	qo	오
 驁	qo	오
 鼯	qo	오
+惡*	qag	악
+惡*	qo	오
 屋	qog	옥
 沃	qog	옥
 獄	qog	옥
@@ -4695,6 +5008,7 @@ use_preset_vocabulary: true
 兀	qol	올
 嗢	qol	올
 膃	qol	올
+兀*	qol	올
 壅	qoq	옹
 擁	qoq	옹
 瓮	qoq	옹
@@ -4785,9 +5099,6 @@ use_preset_vocabulary: true
 磈	qoi	외
 聵	qoi	외
 隗	qoi	외
-外貌
-外人
-了	qio	요
 僥	qio	요
 凹	qio	요
 堯	qio	요
@@ -4833,6 +5144,21 @@ use_preset_vocabulary: true
 蕘	qio	요
 遶	qio	요
 鷂	qio	요
+僚*	lio	료
+寮*	lio	료
+蓼*	lio	료
+遼*	lio	료
+了*	lio	요
+尿*	nio	뇨
+了*	qio	요
+僚*	qio	요
+寮*	qio	요
+尿*	qio	요
+料*	qio	요
+樂*	qio	요
+燎*	qio	요
+療*	qio	요
+蓼*	qio	요
 慾	qiog	욕
 欲	qiog	욕
 浴	qiog	욕
@@ -4874,6 +5200,8 @@ use_preset_vocabulary: true
 舂	qioq	용
 蛹	qioq	용
 踴	qioq	용
+龍*	lioq	룡
+龍*	qioq	용
 于	qu	우
 佑	qu	우
 偶	qu	우
@@ -4926,6 +5254,7 @@ use_preset_vocabulary: true
 麀	qu	우
 麌	qu	우
 齲	qu	우
+羽*	qu	우
 郵遞局
 郵票
 勖	qug	욱
@@ -4956,6 +5285,7 @@ use_preset_vocabulary: true
 紜	qun	운
 霣	qun	운
 韵	qun	운
+暈*	qun	운
 蔚	qul	울
 鬱	qul	울
 亐	qul	울
@@ -5001,6 +5331,8 @@ use_preset_vocabulary: true
 騵	quen	원
 鵷	quen	원
 黿	quen	원
+阮*	qoan
+阮*	quen
 原稿紙
 月	quel	월
 越	quel	월
@@ -5125,6 +5457,18 @@ use_preset_vocabulary: true
 黝	qiu	유
 鼬	qiu	유
 龥	qiu	유
+類*	liu
+劉*	liu	류
+類*	qiu
+劉*	qiu	유
+杻*	qiu	유
+柳*	qiu	유
+流*	qiu	유
+溜*	qiu	유
+琉*	qiu	유
+留*	qiu	유
+硫*	qiu	유
+紐*	qiu	유
 有婦男
 有夫女
 堉	qiug	육
@@ -5132,6 +5476,12 @@ use_preset_vocabulary: true
 肉	qiug	육
 育	qiug	육
 儥	qiug	육
+六*	liug	륙
+陸*	liuq
+戮*	liuq	륙
+六*	qiug	육
+戮*	qiug	육
+陸*	qiuq
 允	qiun	윤
 奫	qiun	윤
 尹	qiun	윤
@@ -5143,15 +5493,30 @@ use_preset_vocabulary: true
 昀	qiun	윤
 鋆	qiun	윤
 閏	qun	윤
+倫*	liun	륜
+崙*	liun	륜
+淪*	liun	륜
+輪*	liun	륜
+倫*	qiun	윤
+崙*	qiun	윤
+輪*	qiun	윤
 聿	qiul	율
 潏	qiul	율
 矞	qiul	율
+律*	liul	률
+慄*	liul	률
+律*	qiul	율
+慄*	qiul	율
+栗*	qiul	율
+率*	qiul	율
 戎	qiuq	융
 瀜	qiuq	융
 絨	qiuq	융
 融	qiuq	융
 隆	qiuq	융
 狨	qiuq	융
+隆*	liuq
+隆*	qiuq
 垠	qyn	은
 恩	qyn	은
 慇	qyn	은
@@ -5228,7 +5593,6 @@ use_preset_vocabulary: true
 礒	qyi	의
 螘	qyi	의
 饐	qyi	의
-議論
 二	qi	이
 以	qi	이
 伊	qi	이
@@ -5264,8 +5628,27 @@ use_preset_vocabulary: true
 詑	qi	이
 迤	qi	이
 隶	qi	이
+利*	li	리
+履*	li	리
+裏*	li	리
+裡*	li	리
+里*	li	리
+離*	li	리
+利*	qi	이
+吏*	qi	이
+履*	qi	이
+易*	qi	이
+李*	qi	이
+梨*	qi	이
+泥*	qi	이
+理*	qi	이
+痢*	qi	이
+罹*	qi	이
+裏*	qi	이
+裡*	qi	이
+里*	qi	이
+離*	qi	이
 移徙
-以往
 溺	qig	익
 瀷	qig	익
 益	qig	익
@@ -5276,6 +5659,9 @@ use_preset_vocabulary: true
 弋	qig	익
 熤	qig	익
 鷁	qig	익
+匿*	qig	익
+溺*	qig	익
+益*	qig	익
 咽	qiel	열
 人	qin	인
 仁	qin	인
@@ -5305,11 +5691,18 @@ use_preset_vocabulary: true
 籾	qin	인
 芢	qin	인
 裀	qin	인
-人道
-人事
-人蔘
+藺*	lin	린
+隣*	lin	린
+鱗*	lin	린
+麟*	lin	린
+吝*	qin	인
+燐*	qin	인
+璘*	qin	인
+藺*	qin	인
+隣*	qin	인
+鱗*	qin	인
+麟*	qin	인
 引上
-仁慈
 引下
 一	qil	일
 佚	qil	일
@@ -5322,6 +5715,7 @@ use_preset_vocabulary: true
 馹	qil	일
 泆	qil	일
 軼	qil	일
+逸*	qil
 日氣
 日製
 任	qim	임
@@ -5337,14 +5731,21 @@ use_preset_vocabulary: true
 衽	qim	임
 銋	qim	임
 飪	qim	임
+林*	qim	임
+淋*	qim	임
+臨*	qim	임
 入	qib	입
 卄	qib	입
 廿	qib	입
+立*	qib	입
+笠*	qib	입
+粒*	qib	입
 媵	qim	임
 仍	qiq	잉
 剩	qiq	잉
 孕	qiq	잉
 芿	qiq	잉
+刺	ceq	척
 仔	ja	자
 刺	ja	자
 咨	ja	자
@@ -5503,11 +5904,8 @@ use_preset_vocabulary: true
 鏘	jaq	장
 餦	jaq	장
 麞	jaq	장
+狀*	jaq	장
 掌匣
-長短
-葬禮
-障礙
-長點
 再	jai	재
 哉	jai	재
 在	jai	재
@@ -5585,6 +5983,7 @@ use_preset_vocabulary: true
 詆	je	저
 豬	je	저
 陼	je	저
+猪*	je	저
 勣	jeg	적
 吊	jeg	적
 嫡	jeg	적
@@ -5617,6 +6016,7 @@ use_preset_vocabulary: true
 覿	jeg	적
 逖	jeg	적
 馰	jeg	적
+炙*	jeg	적
 佃	jen	전
 佺	jen	전
 傳	jen	전
@@ -5698,7 +6098,6 @@ use_preset_vocabulary: true
 鬋	jen	전
 鱣	jen	전
 鸇	jen	전
-銓衡
 切	cei	체
 切	jel	절
 截	jel	절
@@ -5818,8 +6217,8 @@ use_preset_vocabulary: true
 酲	jeq	정
 鋥	jeq	정
 靚	jeq	정
-丁寧
-精誠
+靖*	jeq	정
+精*	jeq	정
 制	jei	제
 劑	jei	제
 啼	jei	제
@@ -5860,6 +6259,7 @@ use_preset_vocabulary: true
 韲	jei	제
 鮧	jei	제
 鯷	jei	제
+諸*	jei	제
 第一
 俎	jo	조
 兆	jo	조
@@ -5942,7 +6342,6 @@ use_preset_vocabulary: true
 鵰	jo	조
 鼂	jo	조
 組立
-祖上
 操心
 組合
 族	jog	족
@@ -5984,6 +6383,8 @@ use_preset_vocabulary: true
 螽	joq	종
 蹤	joq	종
 綜合
+屮	cel	철
+屮	co	초
 佐	joa	좌
 坐	joa	좌
 左	joa	좌
@@ -6175,6 +6576,7 @@ use_preset_vocabulary: true
 阯	ji	지
 鮨	ji	지
 鷙	ji	지
+識*	sig	식
 紙匣
 直	jig	직
 稙	jig	직
@@ -6226,6 +6628,7 @@ use_preset_vocabulary: true
 趁	jin	진
 鉁	jin	진
 鬒	jin	진
+辰	sin	신
 侄	jil	질
 叱	jil	질
 姪	jil	질
@@ -6249,7 +6652,7 @@ use_preset_vocabulary: true
 斟	jim	짐
 朕	jim	짐
 鴆	jim	짐
-什	jib	집
+什	jib
 執	jib	집
 潗	jib	집
 緝	jib	집
@@ -6258,6 +6661,7 @@ use_preset_vocabulary: true
 集	jib	집
 咠	jib	집
 戢	jib	집
+什	sib
 徵	jiq	징
 懲	jiq	징
 澄	jiq	징
@@ -6288,8 +6692,9 @@ use_preset_vocabulary: true
 瑳	ca	차
 硨	ca	차
 車	ge	거
+茶*	ca	차
+茶*	da	다
 次例
-車費
 捉	cag	착
 搾	cag	착
 着	cag	착
@@ -6300,6 +6705,7 @@ use_preset_vocabulary: true
 戳	cag	착
 擉	cag	착
 斲	cag	착
+辶	cag	착
 撰	can	찬
 澯	can	찬
 燦	can	찬
@@ -6413,7 +6819,6 @@ use_preset_vocabulary: true
 棌	cai	채
 茝	cai	채
 菜蔬
-冊
 責	cai	채
 冊	caig	책
 柵	caig	책
@@ -6425,6 +6830,7 @@ use_preset_vocabulary: true
 笧	caig	책
 簀	caig	책
 蚱	caig	책
+冊*	caig	책
 冊牀
 凄	ce	처
 妻	ce	처
@@ -6460,6 +6866,7 @@ use_preset_vocabulary: true
 蜴	ceq	척
 跖	ceq	척
 躑	ceq	척
+刺	ja	자
 拓	tag	탁
 仟	cen	천
 千	cen	천
@@ -6536,7 +6943,6 @@ use_preset_vocabulary: true
 瀸	cem	첨
 簷	cem	첨
 襜	cem	첨
-尖端
 堞	ceb	첩
 妾	ceb	첩
 帖	ceb	첩
@@ -6565,6 +6971,7 @@ use_preset_vocabulary: true
 蜻	ceq	청
 鶄	ceq	청
 青	ceq	청
+晴*	ceq	청
 切	cei	체
 剃	cei	체
 替	cei	체
@@ -6586,6 +6993,7 @@ use_preset_vocabulary: true
 軆	cei	체
 靆	cei	체
 髰	cei	체
+切	jel	절
 初	co	초
 剿	co	초
 哨	co	초
@@ -6675,6 +7083,7 @@ use_preset_vocabulary: true
 鏦	coq	총
 騘	coq	총
 驄	coq	총
+塚*	coq	총
 總角
 撮	coal	촬
 催	coi	최
@@ -6863,7 +7272,6 @@ use_preset_vocabulary: true
 藽	cin	친
 襯	cin	친
 齔	cin	친
-親家
 親舊
 七	cil	칠
 柒	cil	칠
@@ -6919,8 +7327,6 @@ use_preset_vocabulary: true
 鴕	ta	타
 鼉	ta	타
 打字
-他郷
-他鄉
 倬	tag	탁
 卓	tag	탁
 啄	tag	탁
@@ -6944,6 +7350,10 @@ use_preset_vocabulary: true
 蘀	tag	탁
 踔	tag	탁
 逴	tag	탁
+拓*	ceq	척
+度*	do	도
+度*	tag	탁
+拓*	tag	탁
 呑	tan	탄
 嘆	tan	탄
 坦	tan	탄
@@ -6978,12 +7388,12 @@ use_preset_vocabulary: true
 宕	taq	탕
 帑	taq	탕
 湯	taq	탕
-糖	taq	탕
 蕩	taq	탕
 燙	taq	탕
 盪	taq	탕
 碭	taq	탕
 蘯	taq	탕
+糖*	taq	탕
 兌	tai	태
 台	tai	태
 太	tai	태
@@ -7007,6 +7417,8 @@ use_preset_vocabulary: true
 駘	tai	태
 擇	taig	택
 澤	taig	택
+宅*	daig	댁
+宅*	taig	택
 撑	taiq	탱
 撐	taiq	탱
 牚	taiq	탱
@@ -7027,6 +7439,7 @@ use_preset_vocabulary: true
 恫	toq	통
 樋	toq	통
 筩	toq	통
+洞*	toq	통
 堆	toi	퇴
 槌	toi	퇴
 腿	toi	퇴
@@ -7094,7 +7507,6 @@ use_preset_vocabulary: true
 捌	pal	팔
 朳	pal	팔
 汃	pal	팔
-八字
 佩	pai	패
 唄	pai	패
 悖	pai	패
@@ -7158,7 +7570,6 @@ use_preset_vocabulary: true
 蓱	pieq	평
 鮃	pieq	평
 平生
-弊
 吠	piei	폐
 嬖	piei	폐
 幣	piei	폐
@@ -7173,6 +7584,7 @@ use_preset_vocabulary: true
 狴	piei	폐
 獘	piei	폐
 癈	piei	폐
+弊*	piei
 佈	po	포
 包	po	포
 匍	po	포
@@ -7212,16 +7624,15 @@ use_preset_vocabulary: true
 鞄	po	포
 餔	po	포
 鯆	po	포
-拋棄
+暴*	po	포
 暴	po	포
 幅	pog	폭
 暴	pog	폭
 曝	pog	폭
 瀑	pog	폭
 爆	pog	폭
-暴雪
-暴雨
-票
+輻*	bog
+輻*	pog
 俵	pio	표
 剽	pio	표
 彪	pio	표
@@ -7249,6 +7660,7 @@ use_preset_vocabulary: true
 鑣	pio	표
 髟	pio	표
 鰾	pio	표
+票*	pio
 品	pum	품
 稟	pum	품
 禀	pum	품
@@ -7320,7 +7732,6 @@ use_preset_vocabulary: true
 罅	ha	하
 鍜	ha	하
 荷物
-下回
 壑	hag	학
 學	hag	학
 虐	hag	학
@@ -7332,6 +7743,8 @@ use_preset_vocabulary: true
 确	hag	학
 郝	hag	학
 鷽	hag	학
+嗀	hag	학
+鶴*	hag
 學番
 學點
 寒	han	한
@@ -7358,7 +7771,6 @@ use_preset_vocabulary: true
 鷳	han	한
 鼾	han	한
 閒暇
-寒心
 割	hal	할
 轄	hal	할
 瞎	hal	할
@@ -7381,7 +7793,6 @@ use_preset_vocabulary: true
 諴	ham	함
 轞	ham	함
 闞	ham	함
-函數
 合	hab	합
 哈	hab	합
 盒	hab	합
@@ -7417,6 +7828,10 @@ use_preset_vocabulary: true
 炕	haq	항
 缿	haq	항
 頏	haq	항
+降*	gaq
+行*	haiq	행
+降*	haq
+行*	haq	항
 港口
 恆常
 亥	hai	해
@@ -7460,7 +7875,7 @@ use_preset_vocabulary: true
 行	haiq	행
 悻	haiq	행
 行	haq	항
-行星
+﨨*	haiq	행
 享	hiaq	향
 向	hiaq	향
 嚮	hiaq	향
@@ -7532,6 +7947,8 @@ use_preset_vocabulary: true
 鋗	hien	현
 駽	hien	현
 怰	mai	매
+見*	gien	견
+見*	hien	현
 賢母良妻
 孑	hiel	혈
 穴	hiel	혈
@@ -7667,6 +8084,7 @@ use_preset_vocabulary: true
 惑	hog	혹
 或	hog	혹
 酷	hog	혹
+嗀*	hag	학
 婚	hon	혼
 昏	hon	혼
 混	hon	혼
@@ -7718,8 +8136,7 @@ use_preset_vocabulary: true
 畫	hoa	화
 驊	hoa	화
 龢	hoa	화
-花鬥
-花盆
+花斗
 擴	hoag	확
 攫	hoag	확
 確	hoag	확
@@ -7729,7 +8146,8 @@ use_preset_vocabulary: true
 矡	hoag	확
 礭	hoag	확
 鑊	hoag	확
-換
+廓*	goag	곽
+廓*	hoag	확
 丸	hoan	환
 喚	hoan	환
 奐	hoan	환
@@ -7759,6 +8177,7 @@ use_preset_vocabulary: true
 鍰	hoan	환
 鐶	hoan	환
 鬟	hoan	환
+換*
 還甲
 滑	gol	골
 活	hoal	활
@@ -7858,6 +8277,7 @@ use_preset_vocabulary: true
 皛	hio	효
 虓	hio	효
 餚	hio	효
+﨧*	hio	효
 涸	hag	학
 侯	hu	후
 候	hu	후
@@ -7983,7 +8403,6 @@ use_preset_vocabulary: true
 歙	hyb	흡
 潝	hyb	흡
 翖	hyb	흡
-吸煙
 興	hyq	흥
 僖	hyi	희
 凞	hyi	희
@@ -8016,6 +8435,7 @@ use_preset_vocabulary: true
 爔	hyi	희
 豨	hyi	희
 餼	hyi	희
+凞*	hyi	희
 喜悲劇
 詰	hil	힐
 犵	hil	힐
@@ -8023,3 +8443,64 @@ use_preset_vocabulary: true
 襭	hil	힐
 頡	hil	힐
 黠	hil	힐
+侮*	mo	모
+僧*	syq	승
+免*	mien	면
+勉*	mien	면
+勤*	gyn	근
+卑*	bi	비
+喝*	gal	갈
+嘆*	tan	탄
+器*	gi	기
+塀*	bieq	병
+墨*	mug	묵
+層*	cyq	층
+屮*	cel	철
+屮*	co	초
+悔*	hoi	회
+慨*	gai	개
+憎*	jyq	증
+懲*	jiq	징
+敏*	min	민
+既*	gi	기
+暑*	se	서
+梅*	mai	매
+海*	hai	해
+渚*	je	저
+漢*	han	한
+煮*	ja	자
+爫*	jo	조
+琢*	tag	탁
+碑*	bi	비
+社*	sa	사
+祈*	gi	기
+祉*	ji	지
+祐*	qu	우
+祖*	jo	조
+祝*	cug	축
+禍*	hoa	화
+禎*	jeq	정
+穀*	gog	곡
+突*	dol	돌
+節*	jel	절
+練*	lien	련
+練*	qien	연
+縉*	jin	진
+繁*	ben	번
+署*	se	서
+者*	ja	자
+臭*	cui	취
+艹*
+艹*	co	초
+著*	je	저
+褐*	gal	갈
+視*	si	시
+謁*	qal	알
+謹*	gyn	근
+賓*	bin	빈
+贈*	jyq	증
+辶*	cag	착
+逸*	qil	일
+難*	nan	란
+響*	hiaq	향
+頻*	bin	빈
