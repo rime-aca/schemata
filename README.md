@@ -15,4 +15,3 @@ Schema list:
 	hangyl --한글
 	Jyutping+ --粵拼⁺
 	luna_wade_giles --朙月拼音・韋翟式
-	emoji --Emoji
