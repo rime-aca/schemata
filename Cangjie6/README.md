@@ -20,7 +20,7 @@
 
 ##使用方法
 <ol>
-<li>右鍵點擊所需文件，下載鏈接檔至電腦；
+<li>點開所需文件，右鍵點擊<code>Raw</code>，保存鏈接檔至電腦；
 <li>將下載的文件放入【用戶檔案夾】；
 <br><small><ul>
 <code>MacOS X</code>: ~/Library/Rime (鼠鬚管狀態欄選單中的「用戶文檔…」)<br>
@@ -32,5 +32,5 @@
     - schema: cangjie6  # 蒼頡檢字法
     - schema: cangjie6_express  # 蒼頡·快打模式
 </pre>
-<li>重新佈置後用<code>Control</code>+<code>`</code> 或 <code>F4</code> (僅Windows) 叫出〔方案選單〕，選中「蒼頡檢字法」或「蒼頡·快打模式」。
+<li>重新佈署後用<code>Control</code>+<code>`</code> 或 <code>F4</code> (僅Windows) 叫出〔方案選單〕，選中「蒼頡檢字法」或「蒼頡·快打模式」。
 </ol>
