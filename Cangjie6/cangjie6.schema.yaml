@@ -77,6 +77,7 @@ translator:
   enable_user_dict: true
 # 不想自動調頻的話，將上條中「true」改爲「false」
   enable_sentence: true
+  sentence_over_completion: true
   enable_encoder: true
 # 不想自動組詞〔記錄輸入過的詞，然後變成五碼固定詞〕的話可以把上條中「true」改爲「false」
   encode_commit_history: true

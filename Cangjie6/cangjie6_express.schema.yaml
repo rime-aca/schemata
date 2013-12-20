@@ -31,7 +31,7 @@ switches:
 
 simplify:
   option_name: simplification
-  tips: all # 簡化字模式下提示對應的傳統漢字
+  tips: all  # 簡化字模式下提示對應的傳統漢字
   tags: [ abc ]
 
 engine:
@@ -77,6 +77,7 @@ translator:
   user_dict: cangjie6_express
   enable_charset_filter: true
   enable_sentence: false
+  sentence_over_completion: true
   preedit_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
   comment_format:
