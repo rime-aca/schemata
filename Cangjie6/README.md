@@ -20,7 +20,8 @@
 
 ##使用方法
 <ol>
-<li>點開所需文件，右鍵點擊<code>Raw</code>，保存鏈接檔至電腦；
+<li>點開所需文件，右鍵點擊<code>Raw</code>，保存鏈接檔至電腦；<br/>
+或前往 <a href="http://www.bintray.com/rime-aca/Schemata/Cangjie6">Bintray</a> 以下載壓縮包
 <li>將下載的文件放入【用戶檔案夾】；
 <br><small><ul>
 <code>MacOS X</code>: ~/Library/Rime (鼠鬚管狀態欄選單中的「用戶文檔…」)<br>
