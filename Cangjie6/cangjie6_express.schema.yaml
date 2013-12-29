@@ -82,8 +82,6 @@ translator:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|"
-  disable_user_dict_for_patterns:
-    - "^z.*$"
 
 reverse_lookup:
   tag: reverse_lookup
@@ -133,7 +131,8 @@ jyutping_reverse_lookup:
   comment_format: *comment
 
 punctuator:
-  import_preset: default
+  import_preset: symbols
+# 請在這裏更改標點設置，具體範例參照symbols.yaml本節
 
 key_binder:
   import_preset: default
@@ -150,3 +149,5 @@ recognizer:
 # 漢語拼音反查引導鍵
     jyutping_lookup: "`J[a-z]*;?$"
 # 粵拼反查引導鍵
+    punct: "^/[0-9]?[a-z]*$"
+# 以「/」引導特殊符號
