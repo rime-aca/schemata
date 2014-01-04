@@ -1,12 +1,12 @@
 # encoding: utf-8
-#
+
 # 蒼頡檢字法詞典，來自Github/lotem/brise/essay
 # 加入粵拼詞匯，來自Github/lotem/brise/jyutping
 
 # License: GPL
 ---
-name: "cangjie6.extended"
-version: "0.3"
+name: cangjie6.extended
+version: "0.31"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
@@ -15,15 +15,13 @@ columns:
   - text
   - weight
 encoder:
-  exclude_patterns:
-    - '^z.*$'
   rules:
     - length_equal: 2
-      formula: "AaAzBaBbBz"
-    - length_in_range: [3, 3]
-      formula: "AaAzBaYzZz"
-    - length_in_range: [4, 8]
-      formula: "AaBzCaYzZz"
+      formula: AaAzBaBbBz
+    - length_equal: 3
+      formula: AaAzBaYzZz
+    - length_in_range: [4, 5]
+      formula: AaBzCaYzZz
   tail_anchor: "'"
 ...
 日日
@@ -19226,8 +19224,8 @@ encoder:
 橄欖球場
 相反數
 相反詞
-概不	1
-木炭
+概不	2
+木炭	1
 相看兩不厭
 相視
 相融合
@@ -20081,6 +20079,7 @@ encoder:
 整句話
 整頓
 整頓飯
+整靚
 整把
 整損手
 整排
@@ -30865,6 +30864,7 @@ encoder:
 光怪陸離
 少量多餐
 粉墨登場
+雀蛋
 糧倉
 糧食
 小趙
@@ -43861,6 +43861,7 @@ encoder:
 等着你	1
 等着瞧
 等我着衫
+待薄
 私曲	1
 私蓄
 自得其樂
@@ -62805,6 +62806,7 @@ encoder:
 定心
 實驗心理學
 軟心腸
+定必
 定性	1
 軟性
 定心丸
@@ -66793,6 +66795,7 @@ encoder:
 有年頭
 有冇人知
 病假
+有命
 有信心
 有頜
 有作用
@@ -70391,6 +70394,7 @@ encoder:
 大家起筷
 猶豫起來	1
 夾起來
+夾埋
 夾走
 大人物
 大伯
@@ -109218,6 +109222,7 @@ encoder:
 入簾
 全身麻醉
 入射波
+入我數
 傷感
 修成
 無形之中
@@ -112830,6 +112835,7 @@ encoder:
 儉省
 飲料水
 飲料店
+入你數
 仙人掌果
 保定地區
 令人鼓舞
@@ -125492,7 +125498,7 @@ encoder:
 折下來	1
 都靈
 折色
-折墮
+折墮	2
 押解	2
 折角	1
 措辭強硬

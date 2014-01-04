@@ -1,5 +1,5 @@
 # encoding: utf-8
-#
+
 # 單字碼表自百度貼吧「倉頡」吧網友风易辞得
 # 又：
 # 蒼頡六代構詞碼碼表
@@ -16,8 +16,8 @@
 
 # License: GPL
 ---
-name: "cangjie6"
-version: "0.26"
+name: cangjie6
+version: "0.27"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -26,15 +26,13 @@ columns:
   - weight
   - stem
 encoder:
-  exclude_patterns:
-    - '^z.*$'
   rules:
     - length_equal: 2
-      formula: "AaAzBaBbBz"
-    - length_in_range: [3, 3]
-      formula: "AaAzBaYzZz"
-    - length_in_range: [4, 8]
-      formula: "AaBzCaYzZz"
+      formula: AaAzBaBbBz
+    - length_equal: 3
+      formula: AaAzBaYzZz
+    - length_in_range: [4, 5]
+      formula: AaBzCaYzZz
   tail_anchor: "'"
 ...
 #𣔕	onqd
@@ -8344,7 +8342,7 @@ encoder:
 柽	deg	1
 𡍁	deg
 𣕪	degd
-麮	degi	1
+麮	degi
 𪍢	degme
 𪍥	degne
 𪌧	degr
@@ -10640,6 +10638,7 @@ encoder:
 𩿤	duhz
 𣖱	duie
 𣙩	dujf
+𣕴	dukf
 𣑹	dulb
 蚻	duli
 椯	dumb
@@ -11667,8 +11666,8 @@ encoder:
 瀫	egfe	1
 𤃀	egfe
 𣽟	egfo
-塣	egg	1
-洼	egg
+洼	egg	1
+塣	egg
 𤃋	eggc
 湗	eggi	2
 𣼤	eggr
@@ -18911,6 +18910,7 @@ encoder:
 𡓖	guihs
 𡏓	guip
 𨍔	guju
+𡎅	gukf
 𧑣	guli
 㙐	gumb
 𡎕	gume
@@ -32659,7 +32659,7 @@ encoder:
 麨	kefh
 𪍉	kefhh
 𫞬	keg
-麮	kegi	2
+麮	kegi
 𪍢	kegme
 𪍥	kegne
 𪌧	kegr
@@ -52875,6 +52875,7 @@ encoder:
 㒥	oujt
 𨍻	oujwj
 缽	oujz
+𠋌	oukf
 罀	ouluo
 缸	oum
 偳	oumb
@@ -62549,6 +62550,7 @@ encoder:
 騣	sfuce	1
 𩦲	sfuce
 𩥪	sfuhj
+𩤧	sfukf
 𩤚	sfumb
 𩤧	sfumf
 䮗	sfumj
@@ -70813,6 +70815,7 @@ encoder:
 炭	ukf	1
 𤏺	ukf
 𢾡	ukfok
+𢾋	ukfye
 峚	ukg	2
 𡉰	ukg
 𦪰	ukhby
@@ -70958,8 +70961,9 @@ encoder:
 岯	umfm
 㠒	umfn
 𣣗	umfno
-𪑛	umfok	1
-𢾰	umfok
+𪑛	umfok	2
+𢾰	umfok	1
+𢾡	ukfok
 𢾋	umfye
 𦤴	umg	1
 𡉚	umg
