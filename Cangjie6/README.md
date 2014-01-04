@@ -21,7 +21,6 @@
 3. 如欲更改默認配置，請循`cangjie6_express.schema.yaml`中註釋進行
 
 ##使用方法
-<ol>
 <ol><li>Download <a href="https://code.google.com/p/rimeime/">La Rime</a>.</br>
 Get the archived Cangjie6 package from <a href="http://www.bintray.com/rime-aca/Schemata/Cangjie6">Bintray</a>.</li>
 <li>Unarchive the package, move the files archived to Rime's user folder.
@@ -38,7 +37,7 @@ to <code>default.custom.yaml</code> in Rime's user folder.
 <li>Deploy. Then press <code>control</code>+<code>`</code> and choose Cangjie6 or Cangjie6 Express to start to use.</li></ol>
 
 <hr>
-<li>下載<a href="http://code.google.com/p/rimeime">中州韻輸入法引擎</a>，</br>
+<ol><li>下載<a href="http://code.google.com/p/rimeime">中州韻輸入法引擎</a>，</br>
 前往 Bintray 下載<a href="http://www.bintray.com/rime-aca/Schemata/Cangjie6">蒼六壓縮包</a>；
 <li>將下載的文件放入【用戶檔案夾】；
 <br><small><ul>
