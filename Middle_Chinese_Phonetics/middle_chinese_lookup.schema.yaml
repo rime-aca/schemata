@@ -4,7 +4,7 @@
 schema:
   schema_id: middle_chinese_lookup
   name: 廣韻查詢
-  version: "2.1"
+  version: "2.2"
   author:
     - Polyhedron
     - 雪齋
@@ -201,7 +201,7 @@ middle_chinese_lookup:
     - xform/\x01([iy])/\x01云\x02$1/
     - xform/\x01j/\x01以\x02/
     - xform/\x01l/\x01來\x02/
-    - "xform/'//"
+    - xform/'//
 # 壓縮聲母
     - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)/\x01$1$2／$6／$9\x02$3$4／$7／$10 $5$8/
     - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)/\x01$1$2／$6\x02$3$4／$7 $5/
@@ -260,7 +260,7 @@ middle_chinese_lookup:
 #
     - xform/\x02(j?)([iy])e((?:[wxh]|／)*\x03)/\x02$1ɨ$2o支$3/
     - xform/\x02(j?)([iy])i((?:[wxh]|／)*\x03)/\x02$1ɨ$2o脂$3/
-    - xform/\x02i((?:[wxh]|／)*\x03)/\x02o之$1/
+    - xform/\x02i((?:[wxh]|／)*\x03)/\x02io之$1/
     - xform/\x02([iy])oi((?:[wxh]|／)*\x03)/\x02$1o微$2/
     - xform/\x02([iy])a((?:d|／)+\x03)/\x02$1o廢$2/
     - xform/\x02(ru?)a((?:d|／)+\x03)/\x02$1o夬$2/
