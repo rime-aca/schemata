@@ -1,6 +1,6 @@
 # Rime schema
 # encoding: utf-8
- 
+
 schema:
   schema_id: middle_chinese_lookup
   name: 廣韻查詢
@@ -22,7 +22,7 @@ schema:
     - zyenpheng
     - cangjie5
     - luna_pinyin
- 
+
 switches:
   - name: ascii_mode
     reset: 0
@@ -30,7 +30,7 @@ switches:
   - name: full_shape
     reset: 0
     states: [ 半角, 全角 ]
- 
+
 engine:
   processors:
     - ascii_composer
@@ -44,10 +44,10 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - abc_segmentor
     - affix_segmentor@pinyin
     - affix_segmentor@cangjie
     - affix_segmentor@reverse_lookup
-    - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -59,22 +59,22 @@ engine:
   filters:
     - reverse_lookup_filter@middle_chinese_lookup
     - uniquifier
- 
+
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba'
   delimiter: " '"
- 
+
 # 中古全拼
 abc_segmentor:
   extra_tags: [ pinyin, cangjie ]
- 
+
 zyenpheng:
   # table_translator@zyenpheng
   dictionary: zyenpheng
   spelling_hints: 4
   preedit_format:
     - "xform/^([a-z]*)$/【廣韻】$1/"
- 
+
 # 用倉頡輸入，加前綴C:
 cangjie:
   # table_translator@cangjie
@@ -92,7 +92,7 @@ cangjie:
   initial_quality: 1
   tips: 〔倉頡〕
   closing_tips: 〔廣韻〕
- 
+
 # 用漢語拼音輸入，加前綴P:
 pinyin:
   # script_translator@pinyin
@@ -106,7 +106,7 @@ pinyin:
   initial_quality: 0.25
   tips: 〔拼音〕
   closing_tips: 〔廣韻〕
- 
+
 # 用倉頡或拼音反查，加前綴:
 # affix_segmentor@reverse_lookup
 reverse_lookup:
@@ -116,20 +116,20 @@ reverse_lookup:
   suffix: ';'
   tips: 〔反查〕
   closing_tips: 〔廣韻〕
- 
+
 key_binder:
   import_preset: default
- 
+
 punctuator:
   import_preset: default
- 
+
 recognizer:
   import_preset: default
   patterns:
     cangjie: "C:[a-z']*;?$"
     pinyin: "P:[a-z']*;?$"
     reverse_lookup: "(?<![A-Z]):[a-z']*;?$"
- 
+
 # 標註中古音
 middle_chinese_lookup:
   tags:  # any
@@ -203,13 +203,14 @@ middle_chinese_lookup:
     - xform/\x01l/\x01來\x02/
     - xform/'//
 # 壓縮聲母
-    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxdhq]+)([wxdhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxdhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxdhq]*\x03)/\x01$1$2／$6／$9\x02$3$4／$7／$10 $5$8/
-    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxdhq]+)([wxdhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxdhq]*\x03)/\x01$1$2／$6\x02$3$4／$7 $5/
-    - xform/([xdhq]+)w/w$1/
-    - xform/(w?)([dhq]+)x/$1x$2/
-    - xform/q(dh)/$1q/
-    - xform/\x02([^\x01\x02\x03wxdhq]+)([wxdhq]+)／\2／\2\x03/\x02$1$2\x03/
-    - xform/\x02([^\x01\x02\x03wxdhq]+)([wxdhq]+)／\2\x03/\x02$1$2\x03/
+    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)/\x01$1$2／$6／$9\x02$3$4／$7／$10 $5$8/
+    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)/\x01$1$2／$6\x02$3$4／$7 $5/
+    - xform/／+\x03/\x03/
+    - xform/([xhq]+)w/w$1/
+    - xform/(w?)([hq]+)x/$1x$2/
+    - xform/q(h)/$1q/
+    - xform/\x02([^\x01\x02\x03wxhq]+?)([wxhq]+)／\2／\2\x03/\x02$1$2\x03/
+    - xform/\x02([^\x01\x02\x03wxhq]+?)([wxhq]+)／\2\x03/\x02$1$2\x03/
 # 轉換韻母
     - xform/\x02(i?)uŋ((?:[wxhq]|／)*\x03)/\x02$1東$2/
     - xform/\x02(y)uŋ((?:[wxhq]|／)*\x03)/\x02$1鐘$2/
