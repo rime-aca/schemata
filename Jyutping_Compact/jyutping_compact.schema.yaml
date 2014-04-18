@@ -6,12 +6,12 @@ schema:
   name: 袖珍粵拼
   version: "0.9.5"
   author:
-    - 佛振 <chen.sst@gmail.com>
     - 雪齋 <lyc20041@gmail.com>
   description: |
-    由默認「粵拼」方案改良而成
     採用「香港語言學會粵語拼音方案」
-    http://www.lshk.org/cantonese.php
+    簡拼不帶聲調三碼以內，帶聲調四碼以內
+    僅使用個字母輸入
+    gu, ku, gun, kui, gui 亦可拼作 gwu, kwu, gwun, kwi, gwi
   dependencies:
     - luna_pinyin
 
@@ -63,6 +63,10 @@ speller:
     - xlit|eo|Gh|
     - xform/ng/o/
     - xlit|123456G|qxrevyg|
+    - derive/g(u[nqxrevy])/u$1/
+    - derive/k(u[nqxrevy])/i$1/
+    - derive/gui/ui/
+    - derive/kui/ii/
     - derive/^([a-z]+)[qxrevy]$/$1/
     - abbrev/^([a-z]).*[qxrevy]$/$1/
 
@@ -83,8 +87,8 @@ translator:
     - xform/h([iu])($|[123456 ])/o$1$2/
     - xform/([^123456 ])hNg/$1oNg/
     - xform/([tsdghjklzcn])j($|[nt123456 ])/$1yu$2/
-    - xform/(^|[123456 ])u($|[aio ])/$1gw$2/
-    - xform/(^|[123456 ])i($|[aio ])/$1kw$2/
+    - xform/(^|[123456 ])u($|[aiou ])/$1gw$2/
+    - xform/(^|[123456 ])i($|[aiou ])/$1kw$2/
     - xform/([tsdghjklzcn])f([nti])/$1eo$2/
     - xform/([tsdghjklzcn])f($|Ng|[k123456 ])/$1oe$2/
     - xlit|N|n|
