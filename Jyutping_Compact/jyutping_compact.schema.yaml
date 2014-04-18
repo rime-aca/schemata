@@ -4,7 +4,7 @@
 schema:
   schema_id: jyutping_compact
   name: 袖珍粵拼
-  version: "0.9"
+  version: "0.9.5"
   author:
     - 佛振 <chen.sst@gmail.com>
     - 雪齋 <lyc20041@gmail.com>
@@ -53,6 +53,7 @@ speller:
   initials: zwutsponmlkjihgfdcba
   delimiter: " '"
   algebra:
+    - derive/om/am/
     - xform/gw/u/
     - xform/kw/i/
     - xform/(^|[^a])a([^a])/$1b$2/
@@ -78,7 +79,7 @@ translator:
     - xform/g($|[mopk123456 ]|i($|[123456 ]))/e$1/
     - xform/dgu/deu/
     - xform/o/Ng/
-    - xform/h($|[ntk123456 ])/o$1/
+    - xform/h($|Ng|[mnptk123456 ])/o$1/
     - xform/h([iu])($|[123456 ])/o$1$2/
     - xform/([^123456 ])hNg/$1oNg/
     - xform/([tsdghjklzcn])j($|[nt123456 ])/$1yu$2/
