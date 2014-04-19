@@ -8346,7 +8346,7 @@ columns:
 氪	hak1
 赫	hak1
 黑	hak1
-冚	ham6	1000
+冚	ham6	0%
 悭	han1
 慳	han1
 佷	han2
@@ -8414,7 +8414,7 @@ columns:
 荇	hang6
 莕	hang6
 行	hang6	5%
-恰	hap1
+恰	hap1	5%
 䎢	hat1
 乞	hat1
 忔	hat1
@@ -9119,7 +9119,7 @@ columns:
 頷	hom5
 顄	hom5
 颔	hom5
-冚	hom6	500
+冚	hom6	1000
 喊	hom6
 憾	hom6
 扻	hom6
@@ -22773,7 +22773,7 @@ columns:
 穧	zai6
 跩	zai6
 蹛	zai6
-齊	zai6
+齊	zai6	0%
 䟗	zai6	5%
 㳁	zak1
 仄	zak1
@@ -25674,8 +25674,6 @@ van	wen1
 冇呀
 冇啊
 冇錢
-冚旗
-冚被
 冷殄
 凍殄
 几絲
@@ -26171,8 +26169,6 @@ van	wen1
 冇用噶
 冇留意
 冇相干
-冚家剷
-冚棒唥
 凱裏市
 分開咗
 刨吓啦
@@ -26681,7 +26677,6 @@ van	wen1
 迆吓先
 連埋我
 連日嚟
-逼冚嗮
 過一排
 都唔明
 都好喎
@@ -27436,7 +27431,6 @@ van	wen1
 提醒你呀
 揩油索油
 揸篼乞食
-搇冚個蓋
 搏一搏啦
 搏嗮老命
 搓吓波先
@@ -28181,7 +28175,6 @@ van	wen1
 備戰
 鼻祖
 備註
-逼冚晒
 碧海
 碧血
 逼人
@@ -33198,10 +33191,8 @@ foul出局
 墟巴嘈閉
 虛報
 墟場
-墟冚
 噓唏
 歔欷
-墟墟冚冚
 墟日
 虛弱
 虛無
@@ -42510,6 +42501,8 @@ BB機	bi1 bi1 gei1
 壁虎	bik1 fu2
 逼供	bik1 gung1
 逼過嚟	bik1 gwo3 lei4
+逼冚嗮	bik1 hom6 saai3
+逼冚晒	bik1 hom6 saai3
 逼入去	bik1 jap6 heoi3
 逼嚟逼去	bik1 lei4 bik1 heoi3
 壁爐	bik1 lou4
@@ -48912,9 +48905,13 @@ fax	fet1 si2
 含糊不淸	hom4 wu4 bat1 cing1
 含糊其詞	hom4 wu4 kei4 ci4
 冚唪唥	hom6 baang6 laang6
+冚棒唥	hom6 baang6 laang6
+冚被	gam2 bei6
 冚家	hom6 gaa1
 冚家鏟	hom6 gaa1 caan2
+冚家剷	hom6 gaa1 caan2
 冚家富貴	hom6 gaa1 fu3 gwai3
+冚旗	gam2 kei4
 懇請	han2 cing2
 懇切	han2 cit3
 墾地	han2 dei6
@@ -49010,8 +49007,8 @@ fax	fet1 si2
 幸運兒	hang6 wan6 ji4
 行將	hang6 zoeng1
 幸災樂禍	hang6 zoi1 lok6 wo6
-恰當	hap1 dong3
-恰好	hap1 hou2
+恰當	hop1 dong3
+恰好	hop1 hou2
 瞌眼瞓	hop1 ngaan5 fan3
 合辦	hop6 baan6
 合併	hop6 bing3
@@ -49307,8 +49304,10 @@ fax	fet1 si2
 虛假	heoi1 gaa2
 虛構	heoi1 gau3
 虛擬	heoi1 ji5
+墟墟冚冚	heoi1 heoi1 hom6 hom6
 栩栩如生	heoi2 heoi2 jyu4 sang1
 許可證	heoi2 ho2 zing3
+墟冚	heoi1 hom6
 去廁所	heoi3 ci3 so2
 去街	heoi3 gaai1
 去街買餸	heoi3 gaai1 maai5 sung3
@@ -51840,6 +51839,7 @@ X光	ik1 si4 gwong1
 搇斗	kam2 dau2
 搇檔	kam2 dong3
 搇賭	kam2 dou2
+搇冚個蓋	kam2 gam2 go3 goi3
 搇蓋	kam2 goi3
 搇一巴掌	kam2 jat1 baa1 zoeng2
 搇旗	kam2 kei4
