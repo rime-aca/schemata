@@ -90,7 +90,7 @@ translator:
     - xform/(^|[123456 ])u($|[aiou ])/$1gw$2/
     - xform/(^|[123456 ])i($|[aiou ])/$1kw$2/
     - xform/([tsdghjklzcn])f([nti])/$1eo$2/
-    - xform/([tsdghjklzcn])f($|Ng|[k123456 ])/$1oe$2/
+    - xform/(^|[tsdghjklzcn])f($|Ng|[k123456 ])/$1oe$2/
     - xlit|N|n|
     - xform/ +/ /
   comment_format:
