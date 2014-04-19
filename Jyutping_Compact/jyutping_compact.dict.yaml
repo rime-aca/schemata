@@ -7148,7 +7148,7 @@ columns:
 䛟	gop3
 䤔	gop3
 䧻	gop3
-合	gop3
+合	gop3	0%
 夾	gop3
 蓋	gop3
 蛤	gop3
@@ -25626,6 +25626,7 @@ talk	tok1
 van	wen1
 # 粵語詞彙
 㗎喇
+咿家
 一啖
 一喺
 一揇
@@ -58120,6 +58121,8 @@ sorry囉	so1 li4 lo1
 上漆	soeng5 cat1
 上車	soeng5 ce1
 上前	soeng5 cin4
+上錯	soeng5 co3
+上錯車	soeng5 co3 ce1
 上錯天堂投錯胎	soeng5 co3 tin1 tong4 tau4 co3 toi1
 上菜	soeng5 coi3
 上牀	soeng5 cong4
