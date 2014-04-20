@@ -5225,6 +5225,7 @@ columns:
 陫	fei6
 𠱥	fik1
 捹	fing3	5%
+揈	fing6	300%
 𢝵	fit1
 𢞵	fit1
 覅	fiu3
@@ -11306,6 +11307,7 @@ columns:
 铅	jyun4
 隕	jyun4
 騵	jyun4
+身	jyun4	0%
 鶢	jyun4
 黿	jyun4
 鼋	jyun4
@@ -11864,6 +11866,7 @@ columns:
 㩮	kin4
 䋌	kin4
 䖍	kin4
+身	kin4	0%
 揵	kin4
 虔	kin4
 鰬	kin4
@@ -23208,7 +23211,6 @@ columns:
 呮	zek1
 唧	zek1
 啫	zek1	0%
-只	zek3
 摭	zek3
 擿	zek3
 炙	zek3
@@ -26085,8 +26087,6 @@ van	wen1
 乜咁噶
 乜嘢話
 九大簋
-乾嗮塘
-乾溼褸
 亂嗮坑
 人老啦
 仲唔行
@@ -26528,7 +26528,6 @@ van	wen1
 發老姣
 白曬曬
 相當之
-眞乾淨
 眞作嘔
 眞係噶
 眞係慘
@@ -27193,7 +27192,6 @@ van	wen1
 大聲啲喇
 天堂尿壺
 天時咁熱
-天氣乾燥
 天氣咁熱
 天氣潮溼
 天熱賣扇
@@ -27394,7 +27392,6 @@ van	wen1
 掐着指頭
 掖高褲腳
 措措埋埋
-揈乾隻手
 提克裏特
 提醒你呀
 揩油索油
@@ -27532,7 +27529,6 @@ van	wen1
 焗焗縮縮
 無掩雞籠
 無耳藤喼
-焮乾件衫
 焮熱煲水
 煮乜鬼飯
 煮麪宵夜
@@ -46361,6 +46357,8 @@ AA制	ei1 ei1 zai3
 肥肚腩	fei4 tou5 naam5
 粉絲	fen1 si2
 fax	fet1 si2
+揈乾	fing6 gon1
+揈乾隻手	fing6 gon1 zek3 sau2
 揈頭	fing6 tau4
 揈頭丸	fing6 tau4 jyun2
 弗到漏油	fit1 dou3 lau6 jau4
@@ -47912,10 +47910,12 @@ fax	fet1 si2
 乾鯁鯁	gon1 kang2 kang2
 乾酪	gon1 lok3
 肝腦塗地	gon1 nou5 tou4 dei6
+乾嗮塘	gon1 saai3 tong4
 乾晒塘	gon1 saai3 tong4
 乾洗	gon1 sai2
 乾洗店	gon1 sai2 dim3
 乾濕褸	gon1 sap1 lau1
+乾溼褸	gon1 sap6 lau5
 乾嗽	gon1 sau3
 乾瘦	gon1 sau3
 乾癬	gon1 sin2
@@ -50201,6 +50201,7 @@ X光	ik1 si4 gwong1
 因地制宜	jan1 dei6 zai3 ji4
 殷鑑	jan1 gaam3
 殷鑑不遠	jan1 gaam3 bat1 jyun5
+焮乾件衫	jan1 gon1 gin6 saam1
 因公殉職	jan1 gung1 seon1 zik1
 因果	jan1 gwo2
 因果報應	jan1 gwo2 bou3 jing3
@@ -51785,6 +51786,7 @@ X光	ik1 si4 gwong1
 園圃	jyun4 bou2
 玄靑	jyun4 cing1
 元朝	jyun4 ciu4
+身毒	jyun4 duk1
 原封不動	jyun4 fung1 bat1 dung6
 沿革	jyun4 gaak3
 完結	jyun4 git3
@@ -52171,6 +52173,8 @@ cancer	ken1 saa2
 畸畸卡卡	ki1 ki1 kaa1 kaa1
 click入去	kik1 jap6 heoi3
 黔驢技窮	kim4 leoi4 gei6 kung4
+身毒	kin4 duk1
+乾卦	kin4 gwaa3
 乾坤	kin4 kwan1
 傾軋	king1 aat3
 傾斜	king1 ce4
@@ -58962,6 +58966,7 @@ tissue	ti1 su4
 天下爲公	tin1 haa6 wai4 gung1
 天黑	tin1 hak1
 天口焮	tin1 hau2 hing3
+天氣乾燥	tin1 hei3 gon1 cou3
 天蝎	tin1 hit3
 天蠍星	tin1 hit3 sing1
 天蠍座	tin1 hit3 zo6
@@ -60137,6 +60142,7 @@ van仔	weng1 zai2
 眞火滾	zan1 fo2 gwan2
 眞假	zan1 gaa2
 眞金不怕火煉	zan1 gam1 bat1 paa3 fo2 lin6
+眞乾淨	zan1 gon1 zing6
 眞系火滾	zan1 hai6 fo2 gwan2
 眞係有心	zan1 hai6 jau5 sam1
 眞係唔似樣	zan1 hai6 m4 ci5 joeng6
