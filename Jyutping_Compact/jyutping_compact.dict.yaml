@@ -13124,7 +13124,7 @@ columns:
 梩	lei5
 浬	lei5
 理	lei5
-裏	lei5
+裏	lei5	0%
 裡	lei5
 逦	lei5
 邐	lei5
@@ -33420,7 +33420,7 @@ foul出局
 海葵
 海纜
 海狸
-海里
+海浬
 海輪
 海路
 海馬
@@ -41669,6 +41669,207 @@ call機
 專注
 啜泣
 茁壯
+百感交集
+包含
+飽含
+逼到鬼噉
+逼冚嗮
+逼冚晒
+兵貴神速
+出神
+出神入化
+情感
+財神
+全神貫注
+大顯神通
+大顯神威
+膽敢
+鬥細佬哥
+電感
+多愁善感
+動感
+快感
+發神經
+火神
+方向感
+俯瞰
+雞噉腳
+飢餓感
+驕傲感
+甘菊
+甘願
+甘藍
+泔水
+甘醇
+甘甜
+甘蔗
+甘蔗田
+甘蔗渣
+甘蔗汁
+甘之如飴
+感情
+感情用事
+敢當
+噉都得
+噉都得嘅
+感動
+感化
+感激
+感官
+感光
+感恩節
+感人
+感人肺腑
+噉又得
+噉又點
+噉又係
+感染
+感染力
+敢問
+感悟
+感受
+感性
+感傷
+感想
+感歎
+感歎詞
+噉就弊
+噉就啱
+感謝
+敢作敢當
+怪裏怪氣
+鬼斧神工
+鬼神
+骨感
+喊噉口
+口感
+墟墟冚冚
+墟冚
+海神
+堪輿
+戡亂
+砍伐
+含苞待放
+含情
+含情脈脈
+含蓄
+含垢忍辱
+含恨
+含含糊糊
+含意
+含義
+含冤
+含淚
+含辛茹苦
+含羞
+含羞草
+含水
+酣睡
+含笑
+含酸
+含糊
+闔府
+闔埋雙眼
+闔眼
+磕破
+磕碰
+磕頭
+恐懼感
+熊貓噉嘅眼
+一神敎
+優越感
+幽默感
+夜遊神
+禽流感
+求神
+求神問卜
+缺憾
+濫砍
+濫砍濫伐
+流感
+裏底
+裏面
+六神無主
+敏感
+門神
+眼裏
+眼神
+蟻躝噉
+鳥瞰
+鳥瞰圖
+腦神經
+鵪鶉
+黯然銷魂
+葡萄苷
+判感化
+深感
+心曠神怡
+心裏
+心神
+深受感動
+神兵
+神出鬼沒
+神情
+神槍手
+神速
+神化
+神格
+神格化
+神敎
+神機妙算
+神經
+神經科
+神經系統
+神經細胞
+神經痛
+神棍
+神氣
+神學
+神龕
+神醫
+神權
+神樓
+神明
+神木
+神神化化
+神色
+神仙
+神聖
+神算
+神態
+神偸
+神通
+神通廣大
+神童
+神威
+神智
+神職
+失神
+水神
+性感
+性感尤物
+笑笑口噉講
+傷感
+傷感情
+上天
+太陽神
+甜柑
+瘟神
+榮譽感
+眞神
+眞實感
+震撼
+酒酣耳熱
+酒神
+就噉啦
+自卑感
+戰神
+竈神
+堡壘
+盜壘
+壘球
+壘球隊
+壘球棒
 鴉片	aa1 pin3
 鴉片貿易	aa1 pin3 mau6 jik6
 鴉片戰爭	aa1 pin3 zin3 zang1
@@ -41890,7 +42091,6 @@ IP	ai1 pi1
 百發百中	baak3 faat3 baak3 zung3
 百分點	baak3 fan1 dim2
 伯父	baak3 fu6
-百感交集	baak3 gom2 gaau1 zaap6
 白鴿	baak3 gop2
 百香果	baak3 hoeng1 gwo2
 百香果汁	baak3 hoeng1 gwo2 zap1
@@ -41984,11 +42184,9 @@ IP	ai1 pi1
 八仙過海	baat3 sin1 gwo3 hoi2
 八成	baat3 sing4
 褒貶	baau1 bin2
-包含	baau1 hom4
 包二奶	baau1 ji6 naai1
 包租婆	baau1 zou1 po2
 飽經風霜	baau2 ging1 fung1 soeng1
-飽含	baau2 hom4
 飽暖思淫慾	baau2 nyun5 si1 jam4 juk6
 飽死	baau2 sei2
 飽死我啦	baau2 sei2 ngo5 laa3
@@ -42444,13 +42642,10 @@ BB機	bi1 bi1 gei1
 逼巴士	bik1 baa1 si2
 逼迫	bik1 baak1
 壁櫥	bik1 ceoi4
-逼到鬼噉	bik1 dou3 gwai2 gom2
 逼到埋身	bik1 dou3 maai4 san1
 壁虎	bik1 fu2
 逼供	bik1 gung1
 逼過嚟	bik1 gwo3 lei4
-逼冚嗮	bik1 hom6 saai3
-逼冚晒	bik1 hom6 saai3
 逼入去	bik1 jap6 heoi3
 逼嚟逼去	bik1 lei4 bik1 heoi3
 壁爐	bik1 lou4
@@ -42490,7 +42685,6 @@ BB機	bi1 bi1 gei1
 兵家	bing1 gaa1
 兵家必爭之地	bing1 gaa1 bit1 zang1 zi1 dei6
 兵家大忌	bing1 gaa1 daai6 gei6
-兵貴神速	bing1 gwai3 san4 cuk1
 兵役法	bing1 jik6 faat6
 兵臨城下	bing1 lam4 sing4 haa6
 冰上表演	bing1 soeng6 biu2 jin2
@@ -42615,7 +42809,6 @@ BB機	bi1 bi1 gei1
 保養	bou2 joeng5
 補養	bou2 joeng5
 補語	bou2 jyu5
-堡壘	bou2 leoi5
 保母	bou2 mou2
 褓姆車	bou2 mou5 ce1
 保安	bou2 on1
@@ -43318,8 +43511,6 @@ check吓	cek1 haa5
 出生紙	ceot1 saang1 zi2
 出生證	ceot1 saang1 zing3
 出身	ceot1 san1
-出神	ceot1 san4
-出神入化	ceot1 san4 jap6 faa3
 出生	ceot1 sang1
 出生入死	ceot1 sang1 jap6 sei2
 出聲	ceot1 seng1
@@ -43617,7 +43808,6 @@ check吓	cek1 haa5
 情急智生	cing4 gap1 zi3 sang1
 情景	cing4 ging2
 情結	cing4 git3
-情感	cing4 gom2
 情人眼裏出西施	cing4 jan4 ngaan5 leoi5 ceot1 sai1 si1
 情有獨鍾	cing4 jau5 duk6 zung1
 情誼	cing4 ji4
@@ -43871,7 +44061,6 @@ check吓	cek1 haa5
 才女	coi4 neoi5
 裁判員	coi4 pun3 jyun4
 裁判長	coi4 pun3 zoeng2
-財神	coi4 san4
 才疏學淺	coi4 so1 hok6 cin2
 才華	coi4 waa4
 才華蓋世	coi4 waa4 koi3 sai3
@@ -44201,7 +44390,6 @@ check吓	cek1 haa5
 全身而退	cyun4 san1 ji4 teoi3
 全身上下	cyun4 san1 soeng6 haa6
 傳神	cyun4 san4
-全神貫注	cyun4 san4 gun3 zyu3
 傳授	cyun4 sau6
 傳授法	cyun4 sau6 faat3
 傳信	cyun4 seon3
@@ -44534,8 +44722,6 @@ check吓	cek1 haa5
 大氣壓力	daai6 hei3 aat3 lik6
 大器晚成	daai6 hei3 maan5 sing4
 大顯身手	daai6 hin2 san1 sau2
-大顯神通	daai6 hin2 san4 tung1
-大顯神威	daai6 hin2 san4 wai1
 大興土木	daai6 hing1 tou2 muk6
 大可不必	daai6 ho2 bat1 bit1
 大鄉里	daai6 hoeng1 lei5
@@ -44681,7 +44867,6 @@ check吓	cek1 haa5
 擔住	daam1 zyu6
 擔住口煙	daam1 zyu6 hau2 jin1
 膽結石	daam2 git3 sek6
-膽敢	daam2 gom2
 膽略過人	daam2 loek6 gwo3 jan4
 膽量	daam2 loeng6
 膽瓶	daam2 ping4
@@ -44979,7 +45164,6 @@ check吓	cek1 haa5
 斗零	dau2 ling2
 抖擻	dau2 sau2
 鬥負氣	dau3 fu3 hei3
-鬥細佬哥	dau3 sai3 lou2 go1
 鬥爭	dau3 zang1
 鬥爭意志	dau3 zang1 ji3 zi3
 鬥爭性	dau3 zang1 sing3
@@ -45210,7 +45394,6 @@ check吓	cek1 haa5
 電解質	din6 gaai2 zat1
 電介質	din6 gaai3 zat1
 電鋸	din6 geoi3
-電感	din6 gom2
 電感應	din6 gom2 jing3
 電信局	din6 guk6
 電器舖	din6 hei3 pou2
@@ -45361,7 +45544,6 @@ check吓	cek1 haa5
 多年來	do1 nin4 loi4
 多年生	do1 nin4 sang1
 多年生植物	do1 nin4 sang1 zik6 mat6
-多愁善感	do1 sau4 sin6 gom2
 多士	do1 si2
 多士爐	do1 si2 lou4
 多少	do1 siu2
@@ -45486,7 +45668,6 @@ check吓	cek1 haa5
 盜亦有道	dou6 jik6 jau5 dou6
 導演	dou6 jin2
 道理	dou6 lei5
-盜壘	dou6 leoi5
 道路	dou6 lou6
 導尿管	dou6 niu6 gun2
 道袍	dou6 pou4
@@ -45595,7 +45776,6 @@ check吓	cek1 haa5
 戙篤企	dung6 duk1 kei5
 戙篤笑	dung6 duk1 siu3
 戙篤笑騷	dung6 duk1 siu3 sou1
-動感	dung6 gom2
 恫嚇	dung6 haak3
 戙起隻腳	dung6 hei2 zek3 goek3
 動人心弦	dung6 jan4 sam1 jin4
@@ -45670,7 +45850,6 @@ AA制	ei1 ei1 zai3
 化裝舞會	faa3 zong1 mou5 wui6
 快啲行喇	faai3 di1 haang4 laa3
 快啲	faai3 dit1
-快感	faai3 gom2
 傀儡	faai3 leoi5
 傀儡戲	faai3 leoi5 hei3
 傀儡政府	faai3 leoi5 zing3 fu2
@@ -45827,7 +46006,6 @@ AA制	ei1 ei1 zai3
 發票	faat3 piu3
 發泡膠	faat3 pou5 gaau1
 發泡膠盒	faat3 pou5 gaau1 hop2
-發神經	faat3 san4 ging1
 發生	faat3 sang1
 發射	faat3 se6
 發洩	faat3 sit3
@@ -46144,7 +46322,6 @@ fax	fet1 si2
 顆粒	fo2 nap1
 顆粒狀	fo2 nap1 zong6
 火炮	fo2 paau3
-火神	fo2 san4
 伙食	fo2 sik6
 火星	fo2 sing1
 火星人	fo2 sing1 jan4
@@ -46160,7 +46337,6 @@ fax	fet1 si2
 方便	fong1 bin6
 荒誕不經	fong1 daan3 bat1 ging1
 荒地	fong1 dei6
-方向感	fong1 hoeng3 gom2
 荒淫無度	fong1 jam4 mou4 dou6
 荒淫無道	fong1 jam4 mou4 dou6
 方案	fong1 on3
@@ -46253,7 +46429,6 @@ fax	fet1 si2
 俯衝角	fu2 cung1 gok3
 俯伏	fu2 fuk6
 苦過弟弟	fu2 gwo3 di4 di2
-俯瞰	fu2 hom3
 俯看	fu2 hon3
 俯仰	fu2 joeng5
 撫養	fu2 joeng5
@@ -46860,7 +47035,6 @@ fax	fet1 si2
 雞蛋碰石頭	gai1 daan6 pung3 sek6 tau4
 雞丁	gai1 ding1
 雞啄唔斷	gai1 doeng1 m4 tyun5
-雞噉腳	gai1 gom2 goek3
 雞冠	gai1 gun1
 雞項	gai1 hong2
 雞紅	gai1 hung4
@@ -47120,7 +47294,6 @@ fax	fet1 si2
 機構	gei1 kau3
 機率	gei1 leot6
 基女	gei1 neoi5
-飢餓感	gei1 ngo6 gom2
 機舖	gei1 pou2
 奇數	gei1 sou3
 機會	gei1 wui6
@@ -47496,7 +47669,6 @@ fax	fet1 si2
 嬌嗲	giu1 de2
 嬌媚	giu1 mei6
 驕傲自大	giu1 ngou4 zi6 daai6
-驕傲感	giu1 ngou6 gom2
 嬌生慣養	giu1 sang1 gwaan3 joeng5
 驕橫	giu1 waang6
 驕縱	giu1 zung3
@@ -47602,81 +47774,40 @@ fax	fet1 si2
 各種各樣	gok3 zung2 gok3 joeng6
 各種人	gok3 zung2 jan4
 柑桔	gom1 gat1
-甘菊	gom1 guk1
-甘願	gom1 jyun6
-甘藍	gom1 laam4
-泔水	gom1 seoi2
-甘醇	gom1 seon4
 甘薯	gom1 syu4
-甘甜	gom1 tim4
-甘蔗	gom1 ze3
-甘蔗田	gom1 ze3 tin4
-甘蔗渣	gom1 ze3 zaa1
-甘蔗汁	gom1 ze3 zap1
-甘之如飴	gom1 zi1 jyu4 ji4
-感情	gom2 cing4
-感情用事	gom2 cing4 jung6 si6
 感觸	gom2 cuk1
-敢當	gom2 dong1
-噉都得	gom2 dou1 dak1
-噉都得嘅	gom2 dou1 dak1 ge3
 噉都好	gom2 dou1 hou2
 噉都唔得	gom2 dou1 m4 dak1
 噉都唔得咩	gom2 dou1 m4 dak1 me1
 感到	gom2 dou2
-感動	gom2 dung6
-感化	gom2 faa3
 感化院	gom2 faa3 jyun6
 噉解	gom2 gaai2
-感激	gom2 gik1
 感激不盡	gom2 gik1 bat1 zeon6
 感激萬分	gom2 gik1 maan6 fan1
 感覺	gom2 gok3
-感官	gom2 gun1
-感光	gom2 gwong1
 感興趣	gom2 hing3 ceoi3
 感荷	gom2 ho6
 感恩荷德	gom2 jan1 ho6 dak1
-感恩節	gom2 jan1 zit3
-感人	gom2 jan4
-感人肺腑	gom2 jan4 fai3 fu2
-噉又得	gom2 jau6 dak1
-噉又點	gom2 jau6 dim2
 噉又點呀	gom2 jau6 dim2 aa3
-噉又係	gom2 jau6 hai6
 噉又唔係	gom2 jau6 m4 hai6
 噉又唔係噃	gom2 jau6 m4 hai6 bo3
 噉又唔同	gom2 jau6 m4 tung4
-感染	gom2 jim5
-感染力	gom2 jim5 lik6
 感應	gom2 jing3
 噉樣	gom2 joeng2
 感慨	gom2 koi3
 感慨萬千	gom2 koi3 maan6 cin1
 橄欖	gom2 laam5
 噉唔係	gom2 m4 hai6
-敢問	gom2 man6
 感冒	gom2 mou6
 感冒藥	gom2 mou6 joek6
-感悟	gom2 ng6
 敢怒不敢言	gom2 nou6 bat1 gom2 jin4
 敢怒而不敢言	gom2 nou6 ji4 bat1 gom2 jin4
-感受	gom2 sau6
 敢死	gom2 sei2
 敢死隊	gom2 sei2 deoi6
-感性	gom2 sing3
-感傷	gom2 soeng1
-感想	gom2 soeng2
-感歎	gom2 taan3
-感歎詞	gom2 taan3 ci4
 噉頭	gom2 tau2
 感同身受	gom2 tung4 san1 sau6
-噉就弊	gom2 zau6 bai6
-噉就啱	gom2 zau6 ngaam1
-感謝	gom2 ze6
 感召	gom2 ziu6
 感召力	gom2 ziu6 lik6
-敢作敢當	gom2 zok3 gom2 dong1
 敢作敢爲	gom2 zok3 gom2 wai4
 噉仲得掂	gom2 zung6 dak1 dim6
 咁遲先嚟	gom3 ci4 sin1 lei4
@@ -48126,7 +48257,6 @@ fax	fet1 si2
 拐杖	gwaai2 zoeng2
 怪病	gwaai3 beng6
 怪誕不經	gwaai3 daan3 bat1 ging1
-怪裏怪氣	gwaai3 leoi5 gwaai3 hei3
 怪論	gwaai3 leon6
 怪唔得	gwaai3 m4 dak1
 怪唔之得	gwaai3 m4 zi1 dak1
@@ -48191,7 +48321,6 @@ fax	fet1 si2
 詭秘	gwai2 bei3
 鬼打鬼	gwai2 daa2 gwai2
 軌道	gwai2 dou6
-鬼斧神工	gwai2 fu2 san4 gung1
 詭計	gwai2 gai3
 詭計多端	gwai2 gai3 do1 dyun1
 鬼咁	gwai2 gom3
@@ -48206,7 +48335,6 @@ fax	fet1 si2
 鬼屋	gwai2 nguk1
 鬼婆	gwai2 po2
 鬼殺咁嘈	gwai2 saat3 gom3 cou4
-鬼神	gwai2 san4
 鬼死	gwai2 sei2
 鬼死咁	gwai2 sei2 gom3
 鬼使神差	gwai2 si2 san4 caai1
@@ -48282,7 +48410,6 @@ fax	fet1 si2
 骨灰甕	gwat1 fui1 ung3
 骨縫	gwat1 fung4
 骨架	gwat1 gaa2
-骨感	gwat1 gom2
 骨幹份子	gwat1 gon3 fan6 zi2
 骨骸	gwat1 haai4
 骨肉相殘	gwat1 juk6 soeng1 caan4
@@ -48610,7 +48737,6 @@ fax	fet1 si2
 客棧	haak3 zaan6
 嚇窒	haak3 zat6
 喊打喊殺	haam3 daa2 haam3 saat3
-喊噉口	haam3 gom2 hau2
 喊唔出	haam3 m4 ceot1
 鹹蟲	haam4 cung2
 鹹蛋	haam4 daan2
@@ -48969,7 +49095,6 @@ fax	fet1 si2
 口風琴	hau2 fung1 kam4
 口吃	hau2 gat1
 口角	hau2 gok3
-口感	hau2 gom2
 口乾	hau2 gon1
 口供	hau2 gung1
 口口聲聲	hau2 hau2 sing1 sing1
@@ -49139,8 +49264,6 @@ fax	fet1 si2
 輕鬆	heng1 sung1
 虛假	heoi1 gaa2
 虛構	heoi1 gau3
-墟墟冚冚	heoi1 heoi1 hom6 hom6
-墟冚	heoi1 hom6
 虛擬	heoi1 ji5
 去除	heoi2 ceoi4
 去蟲	heoi2 cung4
@@ -49486,7 +49609,6 @@ fax	fet1 si2
 海豹	hoi2 paau3
 海平面	hoi2 ping4 min6
 海平線	hoi2 ping4 sin3
-海神	hoi2 san4
 海生	hoi2 sang1
 海蛇	hoi2 se4
 海水不可斗量	hoi2 seoi2 bat1 ho2 dau2 loeng4
@@ -49542,14 +49664,11 @@ fax	fet1 si2
 學長	hok6 zoeng2
 堪稱	hom1 cing1
 校勘	hom1 gaau3
-堪輿	hom1 jyu4
-戡亂	hom1 lyun6
 勘誤	hom1 ng6
 勘誤表	hom1 ng6 biu2
 勘正	hom1 zing3
 扻崩頭	hom2 bang1 tau4
 扻親	hom2 can1
-砍伐	hom2 fat6
 坎坷	hom2 ho2
 坎坷不平	hom2 ho2 bat1 ping4
 扻爛	hom2 laan6
@@ -49565,32 +49684,13 @@ fax	fet1 si2
 勘探隊	hom3 taam3 deoi6
 勘探員	hom3 taam3 jyun4
 勘災	hom3 zoi1
-含苞待放	hom4 baau1 doi6 fong3
-含情	hom4 cing4
-含情脈脈	hom4 cing4 mak6 mak6
-含蓄	hom4 cuk1
-含垢忍辱	hom4 gau3 jan2 juk6
-含恨	hom4 han6
-含含糊糊	hom4 hom4 wu4 wu4
 含血噴人	hom4 hyut3 pan3 jan4
 含有	hom4 jau5
-含意	hom4 ji3
 含飴弄孫	hom4 ji4 lung6 syun1
-含義	hom4 ji6
-含冤	hom4 jyun1
 含冤而死	hom4 jyun1 ji4 sei2
-含淚	hom4 leoi6
 含量	hom4 loeng6
-含辛茹苦	hom4 san1 jyu4 fu2
-含羞	hom4 sau1
-含羞草	hom4 sau1 cou2
-含水	hom4 seoi2
 含水量	hom4 seoi2 loeng6
-酣睡	hom4 seoi6
-含笑	hom4 siu3
-含酸	hom4 syun1
 含蘊	hom4 wan3
-含糊	hom4 wu4
 含糊不淸	hom4 wu4 bat1 cing1
 含糊其詞	hom4 wu4 kei4 ci4
 冚唪唥	hom6 baang6 laang6
@@ -49667,7 +49767,6 @@ fax	fet1 si2
 合肥	hop6 fei4
 合夥	hop6 fo2
 合夥人	hop6 fo2 jan4
-闔府	hop6 fu2
 闔府安康	hop6 fu2 on1 hong1
 合乎	hop6 fu4
 合乎邏輯	hop6 fu4 lo4 cap1
@@ -49689,11 +49788,7 @@ fax	fet1 si2
 合流	hop6 lau4
 合理	hop6 lei5
 合理化	hop6 lei5 faa3
-闔埋雙眼	hop6 maai4 soeng1 ngaan5
-闔眼	hop6 ngaan5
 合皮	hop6 pei4
-磕破	hop6 po3
-磕碰	hop6 pung3
 合身	hop6 san1
 合適	hop6 sik1
 合成	hop6 sing4
@@ -49701,7 +49796,6 @@ fax	fet1 si2
 合成物	hop6 sing4 mat6
 合成體	hop6 sing4 tai2
 合算	hop6 syun3
-磕頭	hop6 tau4
 合桃	hop6 tou4
 合桃酥	hop6 tou4 sou1
 合同	hop6 tung4
@@ -49870,7 +49964,6 @@ fax	fet1 si2
 恐怖分子	hung2 bou3 fan6 zi2
 恐怖片	hung2 bou3 pin2
 恐怖症	hung2 bou3 zing3
-恐懼感	hung2 geoi6 gom2
 恐嚇	hung2 haak3
 恐嚇信	hung2 haak3 seon3
 恐嚇性	hung2 haak3 sing3
@@ -49898,7 +49991,6 @@ fax	fet1 si2
 紅樓夢	hung4 lau4 mung6
 紅蘿蔔	hung4 lo4 baak6
 紅綠燈	hung4 luk6 dang1
-熊貓噉嘅眼	hung4 maau1 gom2 ge3 ngaan5
 鴻雁傳書	hung4 ngaan6 cyun4 syu1
 鴻雁	hung4 ngaang6
 紅外線	hung4 ngoi6 sin3
@@ -50370,7 +50462,6 @@ X光	ik1 si4 gwong1
 一身蟻	jat1 san1 ngai5
 一身是膽	jat1 san1 si6 daam2
 一身鬆	jat1 san1 sung1
-一神敎	jat1 san4 gaau3
 一神論	jat1 san4 leon6
 一生一世	jat1 sang1 jat1 sai3
 一生受用不盡	jat1 sang1 sau6 jung6 bat1 zeon6
@@ -50441,12 +50532,10 @@ X光	ik1 si4 gwong1
 悠閒	jau1 haan4
 休閒活動	jau1 haan4 wut6 dung6
 憂形於色	jau1 jing4 jyu1 sik1
-優越感	jau1 jyut6 gom2
 幽靈	jau1 ling4
 優良單株	jau1 loeng4 daan1 zyu1
 憂勞	jau1 lou4
 憂勞成疾	jau1 lou4 sing4 zat6
-幽默感	jau1 mak6 gom2
 幽冥	jau1 ming4
 優雅	jau1 ngaa5
 幽雅	jau1 ngaa5
@@ -50729,7 +50818,6 @@ X光	ik1 si4 gwong1
 夜更	je6 gaang1
 夜景	je6 ging2
 夜空	je6 hung1
-夜遊神	je6 jau4 san4
 夜以繼日	je6 ji5 gai3 jat6
 夜冷	je6 laang1
 夜冷貨	je6 laang1 fo3
@@ -51831,7 +51919,6 @@ X光	ik1 si4 gwong1
 擒騎	kam4 ke4
 琴棋書畫	kam4 kei4 syu1 waa2
 蠄蟝	kam4 keoi4
-禽流感	kam4 lau4 gom2
 蠄蟧絲網	kam4 lou4 si1 mong1
 琴晚黑	kam4 maan5 hak1
 禽獸不如	kam4 sau3 bat1 jyu4
@@ -51918,8 +52005,6 @@ X光	ik1 si4 gwong1
 求名	kau4 ming4
 求名求利	kau4 ming4 kau4 lei6
 求愛	kau4 oi3
-求神	kau4 san4
-求神問卜	kau4 san4 man6 buk1
 求生	kau4 sang1
 求勝	kau4 sing3
 求田問舍	kau4 tin4 man6 se3
@@ -52231,7 +52316,6 @@ quali	ko1 li2
 缺陷	kyut3 haam6
 缺陷美	kyut3 haam6 mei5
 訣竅	kyut3 hiu3
-缺憾	kyut3 hom6
 缺少	kyut3 siu2
 拉家常	laa1 gaa1 soeng4
 喇嘛敎	laa1 maa3 gaau3
@@ -52302,8 +52386,6 @@ quali	ko1 li2
 濫調陳腔	laam6 diu6 can4 hong1
 濫伐林木	laam6 fat6 sam1 lam4
 攬頸巾	laam6 geng2 gan1
-濫砍	laam6 hom2
-濫砍濫伐	laam6 hom2 laam6 fat6
 濫好人	laam6 hou2 jan4
 濫竽充數	laam6 jyu4 cung1 sou3
 濫殺	laam6 saat3
@@ -52533,7 +52615,6 @@ quali	ko1 li2
 撈取	lau4 ceoi2
 流竄	lau4 cyun3
 榴彈	lau4 daan2
-流感	lau4 gom2
 樓下	lau4 haa6
 留校	lau4 haau6
 流行	lau4 hang4
@@ -52664,7 +52745,6 @@ label	lei1 bou2
 雷陣雨	leoi4 zan6 jyu5
 裏便	leoi5 bin6
 裏便有位	leoi5 bin6 jau5 wai2
-裏底	leoi5 dai2
 屢敎不改	leoi5 gaau3 bat1 goi2
 屢見不鮮	leoi5 gin3 bat1 sin1
 屢建奇功	leoi5 gin3 kei4 gung1
@@ -52673,13 +52753,9 @@ label	lei1 bou2
 屢勸不聽	leoi5 hyun3 bat1 ting1
 旅遊巴士	leoi5 jau4 baa1 si2
 旅遊巴士司機	leoi5 jau4 baa1 si2 si1 gei1
-壘球	leoi5 kau4
-壘球隊	leoi5 kau4 deoi6
 壘球員	leoi5 kau4 jyun4
-壘球棒	leoi5 kau4 paang5
 膂力過人	leoi5 lik6 gwo3 jan4
 磊落	leoi5 lok6
-裏面	leoi5 min6
 女首富	leoi5 sau2 fu3
 屢試不爽	leoi5 si3 bat1 song2
 壘上	leoi5 soeng6
@@ -53203,7 +53279,6 @@ label	lei1 bou2
 鹿茸	luk6 jung4
 淥魚片	luk6 jyu4 pin2
 六月份	luk6 jyut6 fan6
-六神無主	luk6 san4 mou4 zyu2
 龍蝦	lung4 haa1
 龍蝦肉	lung4 haa1 juk6
 龍行虎步	lung4 haang4 fu2 bou6
@@ -53760,7 +53835,6 @@ label	lei1 bou2
 文職	man4 zik1
 文職人員	man4 zik1 jan4 jyun4
 文章	man4 zoeng1
-敏感	man5 gom2
 敏感度	man5 gom2 dou6
 敏於事而愼於言	man5 jyu1 si6 ji4 san6 jyu1 jin4
 閩南語	man5 naam4 jyu5
@@ -54415,7 +54489,6 @@ miss	mi1 si4
 門派	mun4 paai3
 門牌號碼	mun4 paai4 hou6 maa5
 門票	mun4 piu3
-門神	mun4 san4
 門庭若市	mun4 ting4 joek6 si5
 門診	mun4 zan2
 滿瀉	mun5 se2
@@ -54821,10 +54894,8 @@ miss	mi1 si4
 眼翕毛	ngaan5 jap1 mou1
 眼影	ngaan5 jing2
 眼藥膏	ngaan5 joek6 gou1
-眼裏	ngaan5 leoi5
 眼冒金星	ngaan5 mou6 gam1 sing1
 眼矇矇	ngaan5 mung1 mung1
-眼神	ngaan5 san4
 眼屎	ngaan5 si2
 眼暈	ngaan5 wan4
 眼核	ngaan5 wat6
@@ -54883,7 +54954,6 @@ miss	mi1 si4
 危如累卵	ngai4 jyu4 leoi5 leon2
 危亡	ngai4 mong4
 蟻竇	ngai5 dau3
-蟻躝噉	ngai5 laan1 gom2
 囈語	ngai6 jyu5
 藝名	ngai6 ming6
 藝術家	ngai6 seot6 gaa1
@@ -55300,8 +55370,6 @@ miss	mi1 si4
 捏造	nip6 zou6
 鳥蛋	niu5 daan6
 鳥叫聲	niu5 giu3 seng1
-鳥瞰	niu5 hom3
-鳥瞰圖	niu5 hom3 tou4
 鳥語	niu5 jyu5
 鳥語花香	niu5 jyu5 faa1 hoeng1
 鳥類學家	niu5 leoi6 hok6 gaa1
@@ -55353,7 +55421,6 @@ miss	mi1 si4
 腦膜	nou5 mok6
 腦膜炎	nou5 mok6 jim4
 腦滿腸肥	nou5 mun5 coeng3 fei4
-腦神經	nou5 san4 ging1
 惱羞成怒	nou5 sau1 sing4 nou6
 腦筍未生埋	nou5 seon2 mei6 saang1 maai4
 腦中	nou5 zung1
@@ -55459,9 +55526,7 @@ OK	o1 kei1
 惡戰	ok3 zin3
 惡作劇	ok3 zok3 kek6
 惡俗	ok3 zuk6
-鵪鶉	om1 seon4
 鵪鶉蛋	om1 seon4 daan6
-黯然銷魂	om2 jin4 siu1 wan4
 暗瘡	om3 cong1
 暗於察己	om3 jyu1 caat3 gei2
 暗喻	om3 jyu6
@@ -55846,7 +55911,6 @@ PTU	pi1 ti1 jiu1
 菩提樹	pou4 tai4 syu6
 菩提酒	pou4 tai4 zau2
 菩提子	pou4 tai4 zi2
-葡萄苷	pou4 tou4 gom1
 葡萄柚	pou4 tou4 jau2
 抱佛腳	pou5 fat6 goek3
 抱負	pou5 fu6
@@ -55884,7 +55948,6 @@ PTU	pi1 ti1 jiu1
 仆轉	puk1 zyun2
 判定	pun3 ding6
 判斷	pun3 dyun3
-判感化	pun3 gom2 faa3
 判若兩人	pun3 joek6 loeng5 jan4
 拚命	pun3 meng6
 判案	pun3 on3
@@ -56336,7 +56399,6 @@ PTU	pi1 ti1 jiu1
 深度	sam1 dou6
 心房	sam1 fong4
 深呼吸	sam1 fu1 kap1
-深感	sam1 gom2
 心甘情願	sam1 gon1 cing4 jyun6
 心悸	sam1 gwai3
 深刻	sam1 hak1
@@ -56357,11 +56419,9 @@ PTU	pi1 ti1 jiu1
 心弦	sam1 jin4
 心如死灰	sam1 jyu4 sei2 fui1
 深遠	sam1 jyun5
-心曠神怡	sam1 kwong3 san4 ji4
 心理學家	sam1 lei5 hok6 gaa1
 心理醫生	sam1 lei5 ji1 sang1
 心理治療	sam1 lei5 zi6 liu4
-心裏	sam1 leoi5
 心靈	sam1 ling4
 深謀遠慮	sam1 mau4 jyun5 leoi6
 心目中	sam1 muk6 zung1
@@ -56376,11 +56436,9 @@ PTU	pi1 ti1 jiu1
 心抱	sam1 pou5
 心抱仔	sam1 pou5 zai2
 心心相印	sam1 sam1 soeng1 jan3
-心神	sam1 san4
 心神不定	sam1 san4 bat1 ding6
 深仇	sam1 sau4
 深仇大恨	sam1 sau4 daai6 han6
-深受感動	sam1 sau6 gom2 dung6
 心死	sam1 sei2
 深信不疑	sam1 seon3 bat1 ji4
 心思	sam1 si1
@@ -56478,74 +56536,37 @@ PTU	pi1 ti1 jiu1
 神秘	san4 bei3
 神秘化	san4 bei3 faa3
 神秘主義	san4 bei3 zyu2 ji6
-神兵	san4 bing1
-神出鬼沒	san4 ceot1 gwai2 mut6
 神淸氣爽	san4 cing1 hei3 song2
-神情	san4 cing4
-神槍手	san4 coeng1 sau2
 神采	san4 coi2
 神采飛揚	san4 coi2 fei1 joeng4
 神采奕奕	san4 coi2 jik6 jik6
-神速	san4 cuk1
 神殿	san4 din6
 神道	san4 dou6
-神化	san4 faa3
 神父	san4 fu6
-神格	san4 gaak3
-神格化	san4 gaak3 faa3
-神敎	san4 gaau3
-神機妙算	san4 gei1 miu6 syun3
-神經	san4 ging1
 神經病	san4 ging1 beng6
 神經錯亂	san4 ging1 cok3 lyun6
-神經科	san4 ging1 fo1
-神經系統	san4 ging1 hai6 tung2
-神經細胞	san4 ging1 sai3 baau1
 神經衰弱	san4 ging1 seoi1 joek6
-神經痛	san4 ging1 tung3
 神經質	san4 ging1 zat1
 神經中樞	san4 ging1 zung1 syu1
-神棍	san4 gwan3
 臣下	san4 haa6
-神氣	san4 hei3
-神學	san4 hok6
 神學家	san4 hok6 gaa1
 神學院	san4 hok6 jyun6
-神龕	san4 hom1
-神醫	san4 ji1
 神勇	san4 jung5
 神奇	san4 kei4
-神權	san4 kyun4
 晨褸	san4 lau1
-神樓	san4 lau4
 神靈	san4 ling4
 神領意會	san4 ling5 ji3 wui6
-神明	san4 ming4
-神木	san4 muk6
-神神化化	san4 san4 faa3 faa3
 神思	san4 si1
 神思不定	san4 si1 bat1 ding6
-神色	san4 sik1
-神仙	san4 sin1
-神聖	san4 sing3
 神聖不可侵犯	san4 sing6 bat1 ho2 cam1 faan6
 神聖化	san4 sing6 faa3
-神算	san4 syun3
-神態	san4 taai3
-神偸	san4 tau1
-神通	san4 tung1
-神通廣大	san4 tung1 gwong2 daai6
-神童	san4 tung4
 神話	san4 waa2
-神威	san4 wai1
 神魂不定	san4 wan4 bat1 ding6
 神魂顛倒	san4 wan4 din1 dou2
 神韻	san4 wan6
-神智	san4 zi3
 神志不淸	san4 zi3 bat1 cing1
 神智不淸	san4 zi3 bat1 cing1
 神智淸醒	san4 zi3 cing3 sing2
-神職	san4 zik1
 神職人員	san4 zik1 jan4 jyun4
 腎部	san5 bou6
 腎結石	san5 git3 sek6
@@ -56704,7 +56725,6 @@ PTU	pi1 ti1 jiu1
 失眠症	sat1 min4 zing3
 室內	sat1 noi6
 失散	sat1 saan3
-失神	sat1 san4
 失信於人	sat1 seon3 jyu1 jan4
 失聲	sat1 sing1
 失調	sat1 tiu4
@@ -57138,7 +57158,6 @@ PTU	pi1 ti1 jiu1
 水泡	seoi2 pok1
 水泡	seoi2 pou5
 水深火熱之中	seoi2 sam1 fo2 jit6 zi1 zung1
-水神	seoi2 san4
 水生	seoi2 sang1
 水生動物	seoi2 sang1 dung6 mat6
 水生植物	seoi2 sang1 zik6 mat6
@@ -57699,8 +57718,6 @@ CIB	si1 ai1 bi1
 勝地	sing3 dei6
 勝負	sing3 fu6
 勝景	sing3 ging2
-性感	sing3 gom2
-性感尤物	sing3 gom2 jau4 mat6
 勝瓜	sing3 gwaa1
 勝過	sing3 gwo3
 性行爲	sing3 hang4 wai4
@@ -57905,7 +57922,6 @@ CIB	si1 ai1 bi1
 少女	siu3 neoi5
 少年	siu3 nin4
 笑聲	siu3 sing1
-笑笑口噉講	siu3 siu3 hau2 gom2 gong2
 笑笑口話	siu3 siu3 hau2 waa2
 少尉	siu3 wai3
 少將	siu3 zoeng3
@@ -58005,8 +58021,6 @@ sorry囉	so1 li4 lo1
 相見恨晚	soeng1 gin3 han6 maan5
 相敬	soeng1 ging3
 相敬如賓	soeng1 ging3 jyu4 ban1
-傷感	soeng1 gom2
-傷感情	soeng1 gom2 cing4
 相干	soeng1 gon1
 雙槓	soeng1 gong3
 雙槓體操	soeng1 gong3 tai2 cou1
@@ -58166,7 +58180,6 @@ sorry囉	so1 li4 lo1
 上鎖	soeng5 so2
 上樹	soeng5 syu6
 上船	soeng5 syun4
-上天	soeng5 tin1
 上天堂	soeng5 tin1 tong4
 上臺	soeng5 toi4
 上堂	soeng5 tong4
@@ -58258,7 +58271,6 @@ sorry囉	so1 li4 lo1
 上訴人	soeng6 sou3 jan4
 上書	soeng6 syu1
 上體	soeng6 tai2
-上天	soeng6 tin1
 上天無路	soeng6 tin1 mou4 lou6
 上湯	soeng6 tong1
 上吐下瀉	soeng6 tou3 haa6 se3
@@ -58489,7 +58501,6 @@ title	taai1 tou4
 太空船	taai3 hung1 syun4
 太陽輻射	taai3 joeng4 fuk1 se6
 太陽黑子	taai3 joeng4 hak1 zi2
-太陽神	taai3 joeng4 san4
 太遠	taai3 jyun5
 太冇解喇	taai3 mou5 gaai2 laa3
 太難	taai3 naan4
@@ -58885,7 +58896,6 @@ tissue	ti1 su4
 甜不辣	tim4 bat1 laat6
 恬不知恥	tim4 bat1 zi1 ci2
 甜情密意	tim4 cin4 mat6 ji3
-甜柑	tim4 gom1
 甜而不膩	tim4 ji4 bat1 nei6
 甜言蜜語	tim4 jin4 mat6 jyu5
 甜膩	tim4 nei6
@@ -59631,7 +59641,6 @@ tissue	ti1 su4
 溫度	wan1 dou6
 溫度表	wan1 dou6 biu2
 溫莎	wan1 saa1
-瘟神	wan1 san4
 搵出嚟	wan2 ceot1 lei4
 搵錢	wan2 cin2
 搵丁	wan2 ding1
@@ -59730,7 +59739,6 @@ tissue	ti1 su4
 搲著數	we2 zoek6 sou3
 van仔	weng1 zai2
 榮辱與共	wing4 juk6 jyu5 gung6
-榮譽感	wing4 jyu6 gom2
 榮華	wing4 waa4
 榮華富貴	wing4 waa4 fu3 gwai3
 榮獲	wing4 wok6
@@ -60141,8 +60149,6 @@ van仔	weng1 zai2
 眞愛	zan1 oi3
 眞憑實據	zan1 pang4 sat6 geoi3
 眞心話	zan1 sam1 waa2
-眞神	zan1 san4
-眞實感	zan1 sat6 gom2
 眞衰	zan1 seoi1
 眞相	zan1 soeng3
 眞相露	zan1 soeng3 bat1 lou6
@@ -60161,7 +60167,6 @@ van仔	weng1 zai2
 診所	zan2 so2
 鎭定	zan3 ding6
 振興	zan3 hing1
-震撼	zan3 hom6
 震懾	zan3 sip3
 賑濟	zan3 zai3
 陣間	zan6 gaan1
@@ -60281,7 +60286,6 @@ van仔	weng1 zai2
 酒後吐眞言	zau2 hau6 tou3 zan1 jin4
 走去	zau2 heoi3
 酒興	zau2 hing3
-酒酣耳熱	zau2 hom4 ji5 jit6
 走好運	zau2 hou2 wan6
 走入去	zau2 jap6 heoi3
 走入嚟	zau2 jap6 lei4
@@ -60297,7 +60301,6 @@ van仔	weng1 zai2
 走難	zau2 naan6
 酒凹	zau2 nap1
 走散	zau2 saan2
-酒神	zau2 san4
 走糖	zau2 tong4
 酒暈	zau2 wan6
 走資派	zau2 zi1 paai3
@@ -60309,7 +60312,6 @@ van仔	weng1 zai2
 奏樂	zau3 ngok6
 奏捷	zau3 zit6
 就假嘅	zau6 gaa2 ge3
-就噉啦	zau6 gom2 laa1
 就吓佢	zau6 haa5 keoi5
 驟然	zau6 jin4
 驟雨	zau6 jyu5
@@ -60536,7 +60538,6 @@ jacket	zek1 kek6
 自閉症	zi6 bai3 zing3
 自不然	zi6 bat1 jin4
 自不量力	zi6 bat1 loeng6 lik6
-自卑感	zi6 bei1 gom2
 治病	zi6 beng6
 自暴自棄	zi6 bou6 zi6 hei3
 自殘	zi6 caan4
@@ -60729,7 +60730,6 @@ jacket	zek1 kek6
 餞行	zin3 hang4
 戰區	zin3 keoi1
 戰無不勝	zin3 mou4 bat1 sing3
-戰神	zin3 san4
 戰死	zin3 sei2
 戰死沙場	zin3 sei2 saa1 coeng4
 顫聲	zin3 sing1
@@ -61204,7 +61204,6 @@ jacket	zek1 kek6
 組織胺	zou2 zik1 on1
 組織生活	zou2 zik1 sang1 wut6
 組長	zou2 zoeng2
-竈神	zou3 san4
 做把戲	zou6 baa2 hei3
 造幣	zou6 bai6
 造幣廠	zou6 bai6 cong2
