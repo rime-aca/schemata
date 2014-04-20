@@ -11,7 +11,7 @@ schema:
     採用「香港語言學會粵語拼音方案」
     簡拼不帶聲調三碼以內，帶聲調四碼以內
     僅使用個字母輸入
-    gu, ku, gun, kui, gui 亦可拼作 gwu, kwu, gwun, kwi, gwi
+    gu, ku, gun, kui, gui, gyun, kyun, gwing 亦可拼作 gwu, kwu, gwun, kwi, gwi, gwin, kwin, gyung
   dependencies:
     - luna_pinyin
 
@@ -65,8 +65,9 @@ speller:
     - xlit|123456G|qxrevyg|
     - derive/g(u[nqxrevy])/u$1/
     - derive/k(u[nqxrevy])/i$1/
-    - derive/gui/ui/
-    - derive/kui/ii/
+    - derive/g(ui|j)/ui/
+    - derive/k(ui|j)/ii/
+    - derive/uio/gjo/
     - derive/^([a-z]+)[qxrevy]$/$1/
     - abbrev/^([a-z]).*[qxrevy]$/$1/
 
@@ -86,7 +87,7 @@ translator:
     - xform/h($|Ng|[mnptk123456 ])/o$1/
     - xform/h([iu])($|[123456 ])/o$1$2/
     - xform/([^123456 ])hNg/$1oNg/
-    - xform/([tsdghjklzcn])j($|[nt123456 ])/$1yu$2/
+    - xform/([tsdghjklzcn])j($|Ng|[nt123456 ])/$1yu$2/
     - xform/(^|[123456 ])u($|[aiou ])/$1gw$2/
     - xform/(^|[123456 ])i($|[aiou ])/$1kw$2/
     - xform/([tsdghjklzcn])f([nti])/$1eo$2/
