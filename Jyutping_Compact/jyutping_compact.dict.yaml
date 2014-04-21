@@ -64,7 +64,7 @@ columns:
 啊	aa3	5%
 啊	aa4	0%
 咓	aa5
-那	aa6
+那	aa6	5%
 𠻺	aa6
 呀	aa6	5%
 哎	aai1
@@ -15652,7 +15652,7 @@ columns:
 䏧	naa4
 䛔	naa4
 䛕	naa4
-哪	naa4
+哪	naa4	0%
 娜	naa4
 拏	naa4
 拿	naa4
@@ -15663,7 +15663,7 @@ columns:
 䎎	naa5
 䬁	naa5
 那	naa5
-哪	naa5	5%
+哪	naa5
 那	naa6	5%
 奶	naai1
 疓	naai3
@@ -50514,7 +50514,7 @@ X光	ik1 si4 gwong1
 一片漆黑	jat1 pin3 cat1 hak1
 一山還比一山高	jat1 saan1 waan4 bei2 jat1 saan1 gou1
 一生人	jat1 saang1 jan4
-一剎那	jat1 saat3 naa5
+一剎那	jat1 saat3 no4
 一世英名	jat1 sai3 jing1 ming4
 一心向上	jat1 sam1 hoeng3 soeng6
 一神論	jat1 san4 leon6
@@ -50790,6 +50790,7 @@ X光	ik1 si4 gwong1
 有銀	jau5 ngan2
 有銀搵	jau5 ngan2 wan2
 有我喺度	jau5 ngo5 hai2 dou6
+有那其居	jau5 no4 kei4 geoi1
 有耐心	jau5 noi6 sam1
 有案可查	jau5 on3 ho2 caa4
 有排	jau5 paai4
@@ -54391,6 +54392,7 @@ miss	mi1 si4
 巫女	mou4 neoi5
 無顏見江東父老	mou4 ngaan4 gin3 gong1 dung1 fu6 lou5
 氂牛	mou4 ngau4
+無那	mou4 no6
 無惡不作	mou4 ok3 bat1 zok3
 無憑無據	mou4 pang4 mou4 geoi3
 無心之過	mou4 sam1 zi1 gwo3
@@ -54563,6 +54565,8 @@ miss	mi1 si4
 夢中	mung6 zung1
 夢中人	mung6 zung1 jan4
 末期	mut6 kei4
+南無	naa1 mo4
+南無佬	naa1 mo4 lou2
 挐挐褦褦	naa1 naa1 nang3 nang3
 挐褦	naa1 nang3
 泥潭	naa4 taam4
@@ -54597,8 +54601,6 @@ miss	mi1 si4
 男兒本色	naam4 ji4 bun2 sik1
 南乳花生	naam4 jyu5 faa1 sang1
 南轅北轍	naam4 jyun4 bak1 cit3
-南無	naa1 mo4
-南無佬	naa1 mo4 lou2
 男男女女	naam4 naam4 neoi5 neoi5
 喃喃自語	naam4 naam4 zi6 jyu5
 男女	naam4 neoi5
@@ -56333,7 +56335,8 @@ PTU	pi1 ti1 jiu1
 殺人罪	saat3 jan4 zeoi6
 殺戮	saat3 luk6
 煞唔切掣	saat3 m4 cit3 zai3
-剎那	saat3 naa5
+剎那	saat3 no4
+剎那間	saat3 no4 gaan1
 殺身	saat3 san1
 殺身成仁	saat3 san1 sing4 jan4
 殺生	saat3 sang1
@@ -56902,8 +56905,10 @@ PTU	pi1 ti1 jiu1
 壽比南山	sau6 bei2 naam4 saan1
 綬帶	sau6 daai3
 受到	sau6 dou2
+受福不那	sau6 fuk1 bat1 no4
 受黑錢	sau6 hak1 cin2
 受影響	sau6 jing2 hoeng2
+受弱不那	sau6 joek6 bat1 no4
 受虐狂	sau6 joek6 kong4
 受軟唔受硬	sau6 jyun5 m5 sau6 ngaang6
 受賄	sau6 kui2
