@@ -2698,7 +2698,7 @@ columns:
 情	cing4
 惩	cing4
 懲	cing4
-成	cing4
+成	cing4	0%
 晴	cing4
 澂	cing4
 澄	cing4
@@ -18452,7 +18452,7 @@ columns:
 姓	seng3
 鍟	seng3
 城	seng4
-成	seng4
+成	seng4	5%
 㑯	seoi1
 㒟	seoi1
 㥠	seoi1
@@ -19238,7 +19238,7 @@ columns:
 鋮	sing4
 铖	sing4
 騬	sing4
-成	sing4	5%
+成	sing4
 䞉	sing6
 乘	sing6
 剩	sing6
@@ -25842,7 +25842,6 @@ van	wen1
 擦嗮
 攋低
 攪惦
-攪成
 攪爛
 收爹
 收皮
@@ -26370,9 +26369,6 @@ van	wen1
 戇叱鳩
 戇居仔
 戇居啦
-成個人
-成日喊
-成身汗
 我冇呀
 我唔信
 我唔明
@@ -26456,7 +26452,6 @@ van	wen1
 朗拿度
 望咩啫
 柯非時
-梁思成
 條脷嚡
 歐塞爾
 死人喇
@@ -26944,7 +26939,6 @@ van	wen1
 做呢件事
 做咗一日
 做咗咩事
-做咗成日
 做咩事呀
 做咩咁慢
 做埋佢啦
@@ -27248,7 +27242,6 @@ van	wen1
 定過擡油
 家長里短
 容乜易呀
-寫咗成晚
 將佢分開
 對唔住呀
 小李飛刀
@@ -27258,7 +27251,6 @@ van	wen1
 就噉算咯
 就快冇喇
 就快就快
-就會成功
 尼龍搭扣
 尿都忍得
 屈殄條腰
@@ -27311,9 +27303,6 @@ van	wen1
 想死呀你
 愈叫愈走
 慢慢食呀
-成七斤重
-成個病君
-成身老泥
 我不嬲喺
 我不溜喺
 我份人呢
@@ -27513,7 +27502,6 @@ van	wen1
 海底石斑
 淥殄手指
 淥殄隻手
-減噉兩成
 游離浪蕩
 溼到淰嗮
 溼水棉花
@@ -43891,6 +43879,7 @@ check吓	cek1 haa5
 情愛	cing4 oi3
 懲惡勸善	cing4 ok3 hyun3 sin6
 呈上	cing4 soeng6
+成數	cing4 sou3
 情投意合	cing4 tau4 ji3 hop6
 晴天	cing4 tin1
 情同手足	cing4 tung4 sau2 zuk1
@@ -46972,6 +46961,7 @@ fax	fet1 si2
 監護人	gaam1 wu6 jan4
 監製	gaam1 zai3
 減壓	gaam2 aat3
+減噉兩成	gaam2 gom2 loeng5 sing2
 減輕	gaam2 hing1
 減免	gaam2 min5
 減少	gaam2 siu2
@@ -47062,6 +47052,7 @@ fax	fet1 si2
 絞殺	gaau2 saat3
 攪衰	gaau2 seoi1
 攪屎棍	gaau2 si2 gwan3
+攪成	gaau2 sing4
 攪成噉	gaau2 sing4 gom2
 攪堝	gaau2 wo5
 校對	gaau3 deoi3
@@ -53038,6 +53029,7 @@ label	lei1 bou2
 量角	loeng4 gok3
 量角規	loeng4 gok3 kwai1
 良好	loeng4 hou2
+梁思成	loeng4 si1 sing4
 糧食	loeng4 sik6
 良知	loeng4 zi1
 兩敗俱傷	loeng5 baai6 keoi1 soeng1
@@ -56922,6 +56914,7 @@ PTU	pi1 ti1 jiu1
 寫落嚟	se2 lok6 lei4
 寫唔切	se2 m4 cit3
 寫字枱	se2 zi6 toi2
+寫咗成晚	se2 zo2 sing4 maan5
 赦免	se3 min5
 蛇都死喇	se4 dou2 sei2 laa3
 蛇吓先	se4 haa5 sin1
@@ -57773,6 +57766,7 @@ CIB	si1 ai1 bi1
 城堡	sing4 bou2
 成本	sing4 bun2
 成親	sing4 can1
+成七斤重	sing4 cat1 gan1 zung6
 乘車	sing4 ce1
 乘除	sing4 ceoi4
 成千上萬	sing4 cin1 soeng6 maan6
@@ -57792,6 +57786,8 @@ CIB	si1 ai1 bi1
 成交總值	sing4 gaau1 zung2 zik6
 乘機	sing4 gei1
 成見	sing4 gin3
+成個病君	sing4 go3 bing6 gwan1
+成個人	sing4 go3 jan4
 成功	sing4 gung1
 成功者	sing4 gung1 ze2
 乘隙	sing4 gwik1
@@ -57811,6 +57807,7 @@ CIB	si1 ai1 bi1
 成仁取義	sing4 jan4 ceoi2 ji6
 成人之美	sing4 jan4 zi1 mei5
 乘人之危	sing4 jan4 zi1 ngai4
+成日喊	sing4 jat6 haam3
 成衣	sing4 ji1
 成型	sing4 jing4
 成形	sing4 jing4
@@ -57834,6 +57831,8 @@ CIB	si1 ai1 bi1
 成年人	sing4 nin4 jan4
 乘勢	sing4 sai3
 成心	sing4 sam1
+成身汗	sing4 san1 hon6
+成身老泥	sing4 san1 lou5 nei4
 城市	sing4 si5
 乘勝追擊	sing4 sing3 zeoi1 gik1
 丞相	sing4 soeng3
@@ -60334,6 +60333,7 @@ van仔	weng1 zai2
 驟然	zau6 jin4
 驟雨	zau6 jyu5
 就嚟	zau6 lei4
+就會成功	zau6 wui6 sing4 gung1
 遮柄	ze1 beng3
 遮掩	ze1 jim2
 啫喱	ze1 lei2
@@ -61283,6 +61283,7 @@ jacket	zek1 kek6
 造紙工業	zou6 zi2 gung1 jip6
 造紙業	zou6 zi2 jip6
 造紙術	zou6 zi2 seot6
+做咗成日	zou6 zo2 sing4 jat6
 造作	zou6 zok3
 竹箆	zuk1 bei6
 捉波子棋	zuk1 bo1 zi2 kei4
