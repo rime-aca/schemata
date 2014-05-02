@@ -30,6 +30,10 @@ switches:
   - name: full_shape
     reset: 0
     states: [ 半角, 全角 ]
+  - name: extended_charset
+    states: [ 通用, 增廣 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
 
 engine:
   processors:
@@ -59,6 +63,7 @@ engine:
   filters:
     - reverse_lookup_filter@middle_chinese_lookup
     - uniquifier
+    - cjk_minifier
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba'
