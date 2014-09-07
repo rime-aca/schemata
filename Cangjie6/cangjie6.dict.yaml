@@ -468,7 +468,8 @@ encoder:
 𣊈	aixp
 𣈘	aiyr	1
 𣈔	aiyr
-早	aj	1
+早	aj	2
+曱	aj	1
 旪	aj
 𨷝	ajamu
 昁	ajb
@@ -1602,6 +1603,7 @@ encoder:
 𧤭	aunbq
 𢁋	aune
 鱀	aunwf	1
+𩞚	auoav
 𪩬	auol	1
 𪩬	auon	2
 𣇂	auon	1
@@ -17264,6 +17266,7 @@ encoder:
 坂	ghe	1
 𡕟	ghe
 埄	ghej
+鿍	gheq
 垎	gher
 𡍉	ghew
 垀	ghfd
@@ -21497,8 +21500,8 @@ encoder:
 𤭜	hhmun
 𨊈	hhmwj
 𨊑	hhmwm
-𨉼	hhmwp
 𨉥	hhmws
+𨉼	hhmxp
 𪜲	hhmy
 𢾨	hhmye
 頩	hhmz	4
@@ -29832,6 +29835,7 @@ encoder:
 𪗆	iyx
 𢋿	iyxf
 十	j
+甴	ja
 䥌	jaac
 𪇧	jachz
 𡨶	jaf
@@ -38383,7 +38387,6 @@ encoder:
 襗	lwll	1
 𤰶	lwll
 𤱓	lwll
-甴	lwlm
 𣢘	lwlno
 𨾡	lwlog
 襬	lwlp
@@ -43288,6 +43291,7 @@ encoder:
 䃛	mryjj
 𥕐	mryjr
 砇	mryk	2
+鿎	mryk	3
 𥕁	mrykj
 𪿴	mrykm
 𫇖	mrykr
@@ -45866,6 +45870,7 @@ encoder:
 鰠	nfeii
 𫙞	nfeke
 𩷃	nfeki
+鿐	nfemw
 𩺀	nfeob
 𩶴	nfepd
 𩸦	nfesp
@@ -51739,6 +51744,7 @@ encoder:
 铸	opqki
 䦁	opqkl
 锖	opqmb	1
+鿏	opqme
 铐	opqms	1
 𫓧	opqo
 铑	opqp
@@ -59522,7 +59528,6 @@ encoder:
 呐	rob	3
 呙	rob	2
 𤋚	robf
-𠼮	robf
 𠻓	robg
 剐	robln
 喻	robn	1
@@ -76278,7 +76283,6 @@ encoder:
 𤴍	wmjmn
 𤲖	wmkp
 畀	wml	1
-曱	wmll
 𫕾	wmlsy
 𡆤	wmm
 囩	wmmi	1	w'mmi
@@ -78484,7 +78488,6 @@ encoder:
 𨒦	yhpl
 𨑴	yhq
 逓	yhqb
-産	yhqm
 迭	yhqo
 造	yhqr
 𨑺	yhqu
@@ -81451,6 +81454,7 @@ encoder:
 𧰜	ythjg
 𥪌	ythkp
 竬	ythlb
+産	ythm
 竌	ythn	1
 𥩕	ythn
 𧇔	ythn
