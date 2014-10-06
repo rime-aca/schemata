@@ -3,7 +3,7 @@ hangyl 0.92
 hangyl_hanja 0.51
 
 hangyl 0.92, hangyl_hanja 0.51版更新：
-1.添加30万餘條韓語詞彙（由瑾昀提供，源自網絡）
+1.添加30万餘條韓語詞彙（由瑾昀提供，源自網絡；祛除重複項後其實只有不足4萬……）
 2.修正hangyl_hanja詞庫中若干bug
 3.附帶壁紙字體改爲Rangya Sans Classic
 
