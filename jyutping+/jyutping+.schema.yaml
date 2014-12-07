@@ -3,8 +3,8 @@
 
 schema:
   schema_id: jyutping+
-  name: 粵拼⁺ ₀.₉ᵦ₄
-  version: "0.9β4"
+  name: 粵拼⁺ ₀.₉₅
+  version: "0.95"
   author:
     - 佛振 <chen.sst@gmail.com>
     - Patrick <ipatrickmac@me.com>
@@ -170,7 +170,9 @@ key_binder:
   bindings:
     #- { when: composing, accept: Return, send: Control+Return }
     - { when: composing, accept: minus, send: minus }
-    - { when: paging, accept: minus, send: Page_Up }
+    - { when: composing, accept: equal, send: equal }
+    - { when: has_menu, accept: minus, send: minus }
+    - { when: has_menu, accept: equal, send: equal }
 
 recognizer:
   import_preset: default

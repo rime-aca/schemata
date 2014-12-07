@@ -1,7 +1,10 @@
 ﻿Jyutping+ ReadMe 
-v0.9beta3
+v0.9beta5
 
-0.9beta3更新：
+v0.9beta5更新：
+1.禁用「-,=」翻頁功能
+
+0.9beta3-4更新：
 1.增刪若干詞條
 
 0.9版更新：

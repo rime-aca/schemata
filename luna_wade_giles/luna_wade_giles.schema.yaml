@@ -3,8 +3,8 @@
 
 schema:
   schema_id: luna_wade_giles
-  name: 朙月拼音・韋翟式 ₀.₄
-  version: "0.4"
+  name: 朙月拼音・韋翟式 ₀.₅
+  version: "0.5"
   author:
     - Patrick <ipatrickmac@me.com>
   description: |
@@ -162,8 +162,8 @@ key_binder:
     - { when: composing, accept: ISO_Left_Tab, send: Page_Up }
     - { when: composing, accept: Shift+Tab, send: Page_Up }
     - { when: composing, accept: Tab, send: Page_Down }
-    - { when: paging, accept: minus, send: Page_Up }
-    - { when: has_menu, accept: equal, send: Page_Down }
+    - { when: paging, accept: minus, send: minus }
+    - { when: has_menu, accept: equal, send: equal }
     - { when: always, accept: Control+Shift+4, toggle: dzing }
     - { when: always, accept: Control+Shift+dollar, toggle: dzing }
 
