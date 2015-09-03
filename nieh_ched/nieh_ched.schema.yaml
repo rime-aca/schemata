@@ -4,7 +4,7 @@
 schema:
   schema_id: nieh_ched
   name: 爾切羅馬字
-  version: "2013.10.31"
+  version: "2013.10.25"
   author:
     - "叔寍 <coywjs@gmail.com>"
   description: |
@@ -64,11 +64,11 @@ translator:
     - xform/oh($|[ '])/ó$1/
     - xform/u([ywmnq])h($|[ '])/ú$1$2/
     - xform/uh($|[ '])/ú$1/
-    - xform/ax($|[ '])/à$1/
-    - xform/ex($|[ '])/è$1/
-    - xform/ix($|[ '])/ì$1/
-    - xform/ox($|[ '])/ò$1/
-    - xform/ux($|[ '])/ù$1/
+    - xform/aa($|[ '])/à$1/
+    - xform/ee($|[ '])/è$1/
+    - xform/ii($|[ '])/ì$1/
+    - xform/oo($|[ '])/ò$1/
+    - xform/uu($|[ '])/ù$1/
     - xform/ayy($|[ '])/ày$1/
     - xform/eyy($|[ '])/èy$1/
     - xform/iyy($|[ '])/ìy$1/
@@ -94,13 +94,13 @@ translator:
     - xform/iqq($|[ '])/ìq$1/
     - xform/oqq($|[ '])/òq$1/
     - xform/uqq($|[ '])/ùq$1/
-    - xform/q/ng/
-    - xform/(^|[ '])x/$1gh/
-    #- xform/v/iu/
-    #- xform/um($|[ '])/uung$1/
-    #- xform/úm($|[ '])/uúng$1/
-    #- xform/ùm($|[ '])/uùng$1/
-    #- xform/ub($|[ '])/uug$1/
+    - xform/q/ŋ/
+    - xform/(^|[ '])x/$1ɦ/
+    - xform/v/ü/
+    - xform/um($|[ '])/uuŋ$1/
+    - xform/úm($|[ '])/uúŋ$1/
+    - xform/ùm($|[ '])/uùŋ$1/
+    - xform/ub($|[ '])/uug$1/
     - xform/(^|[ '])o/$1/
 
 reverse_lookup:
