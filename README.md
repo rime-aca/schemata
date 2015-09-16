@@ -18,3 +18,4 @@ Schema list:
 	Jyutping Compact --袖珍粵拼
 	Zyujam --粵語注音
 	luna_pinyin_stroke --朙月拼音·筆劃輔助碼
+	Dangrvond ---唐韻（中古漢語）拼音方案
