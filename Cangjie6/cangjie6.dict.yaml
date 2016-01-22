@@ -41161,7 +41161,7 @@ encoder:
 𤕣	lwku
 申	lwl	3
 䘥	lwl
-𤲥	lwlb
+𤲥	lwlbb
 叟	lwle
 𧟍	lwlf
 𧟌	lwlg
@@ -76852,7 +76852,7 @@ encoder:
 𡼅	usjl
 崌	usjr	1
 𡷝	usju
-岖	usk	3	us'k
+岖	usk	2	us'k
 屻	usk	2
 岃	usk	1
 𡶋	uskn
@@ -84411,6 +84411,7 @@ encoder:
 邀	yhsk	2
 𣁅	yhsk
 𠛍	yhsln
+𨒎	yhsm
 邡	yhsnl
 𪴩	yhsno
 𨾔	yhsog
@@ -84982,7 +84983,6 @@ encoder:
 𪪶	ylbt	1
 𥂣	ylbt
 𨑻	ylbu
-𧹂	ylbuc
 𬥡	ylbuc
 𥌊	ylbul
 覷	ylbuu	1
@@ -85145,7 +85145,6 @@ encoder:
 𬩢	ymbt
 覷	ymbuu	2
 覰	ymbuu	1
-𬢆	ymbuu
 𧙰	ymcv
 逎	ymcw	1
 迺	ymcw
@@ -87330,7 +87329,8 @@ encoder:
 𠅑	yslk
 𪰂	ysllc
 𣄜	yslmc
-与	ysm
+与	ysm	1
+𨒎	ysm
 颅	ysmbo	1
 𣄫	ysmcz
 𬊐	ysmf
@@ -88522,6 +88522,8 @@ encoder:
 𨓘	yybt	1
 𥃐	yybt
 𨓗	yybu
+𧹂	yybuc
+𬢆	yybuu
 䢒	yyck
 𬨞	yye
 𨒳	yyfj
