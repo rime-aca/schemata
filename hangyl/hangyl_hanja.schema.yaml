@@ -52,9 +52,9 @@ speller:
     - derive/(^|[ '])q([aeouiy])/$1$2/
     - derive/q$/ng/
     - derive/q/x/
-    - derive/(^|[ '])([nl])i/$1i/
+#    - derive/l/n/
+#    - derive/(^|[ '])([nl])i/$1i/
     - derive/l/r/
-    - derive/l/n/
     - derive/b/v/
     - derive/p/f/
     - derive/j/z/
