@@ -3,8 +3,8 @@
 
 schema:
   schema_id: jyutping+
-  name: 粵拼⁺ ₀.₉₅
-  version: "0.95"
+  name: 粵拼⁺ ₀.₉₆
+  version: "0.96" #20160229
   author:
     - 佛振 <chen.sst@gmail.com>
     - Patrick <ipatrickmac@me.com>
@@ -24,8 +24,12 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification	#simplification / custom
-    states: [ 傳統, 簡化 ]	#[ 傳統, 簡化 ] / [ 傳統, 我流 ]
+  - options: [ zh_trad, zht2zhhk_v, nippon ]
+    states:
+      - 字形 → 傳統
+      - 字形 → 香港
+      - 字形 → 日本
+    reset: 1
 
 engine:
   processors:
@@ -46,10 +50,12 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - table_translator@custom_phrase
     - r10n_translator
     - reverse_lookup_translator
   filters:
-    - simplifier
+    - simplifier@zht2zhhk_v
+    - simplifier@nippon
     - uniquifier
 
 speller:
@@ -154,6 +160,14 @@ translator:
     - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
   comment_format:
 
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
 reverse_lookup:
   dictionary: luna_pinyin
   prefix: "`"
@@ -173,17 +187,30 @@ key_binder:
     - { when: composing, accept: equal, send: equal }
     - { when: has_menu, accept: minus, send: minus }
     - { when: has_menu, accept: equal, send: equal }
+    - { when: always, accept: Control+Shift+4, toggle: zht2zhhk_v }
+    - { when: always, accept: Control+Shift+dollar, toggle: zht2zhhk_v }
 
 recognizer:
-  import_preset: default
   patterns:
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp:|mailto:).*$"
     reverse_lookup: "`[a-z]*'?$"
-    punct: '^/[a-z]*$'
+    punct: '^/([A-Z|a-z]*|[0-9]|10)$'
 
 abc_segmentor:
   extra_tags:
     - reverse_lookup
 
-simplifier:
-  #opencc_config: custom.ini
-  #option_name: custom
+zht2zhhk_v:
+  option_name: zht2zhhk_v
+  opencc_config: zht2zhhk_v.ini
+  tips: all
+
+nippon:
+  option_name: nippon
+  opencc_config: nippon.ini
+  tips: all
+
+style:
+  font_face: "Meiryo UI"
