@@ -53,7 +53,7 @@ speller:
   delimiter: " '"
   algebra:
     - xform/ng/q/   #簡化ng旳輸入
-    - xform/^([mnq].*[aeiouAEIOU])(\d)$/$1nn$2/   #補全鼻聲母鼻化韵幖誌
+    - xform/^([mnq].*[aeiouAEIOU])(h?\d)$/$1nn$2/   #補全鼻聲母鼻化韵幖誌
     - xform/^b/m/
     - xform/^p/b/
     - xform/^bh/p/
@@ -72,14 +72,13 @@ speller:
     - xform/ur/ir/
     - xform/er(h?)(\d)/ur$1$2/
     - xform/Er/ur/
-    - xform/ere/ue/
+    - xform/ere/ue/   #將ere與ue在同一口音中不共存, 故規整爲ue
     - derive/naI/iq/   #保持nai/ing差異
     - derive/nuI/q/   #保持nui/ng差異
     - derive/iO/or/   #保持矦韵文讀io/or差異
-    - xform/er([nq])/ir$1/
-    - xform/erm/irm/
+    - xform/er([mnqptk])/ir$1/   #將erm/ern/erng及相應入聲規整爲ir韵腹
     - xform/ee/er/
-    - xform/erh/eh/   #將erh韵簡化爲eh韵
+    - xform/erh/eh/   #將eeh韵簡化爲eh韵
     - xform/ner/ne/   #將nee韵簡化爲ne韵
     - xform/oo/or/
     - xform/nor/no/   #將noo韵簡化爲no韵
@@ -94,8 +93,8 @@ speller:
 translator:
   dictionary: banlam
   preedit_format:
-    - 'xform q ng'
-    - 'xform ([aeiou])(r?m?n?h?g?p?t?k?)([\[\]\\\,\./]) $1$3$2'
+    - 'xform q ng'   #顯眎還厡ng
+    - 'xform ([aeiou])(r?m?n?h?g?p?t?k?)([\[\]\\\,\./]) $1$3$2'   #將調號由尾部迻至韵腹後
     - 'xform ([a])([iu])([\[\]\\\,\./]) $1$3$2'
     - 'xform a\[ a'
     - 'xform e\[ e'
