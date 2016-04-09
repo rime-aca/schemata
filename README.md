@@ -19,3 +19,4 @@ Schema list:
 	Zyujam – 粵語注音
 	luna_pinyin_stroke – 朙月拼音·筆劃輔助碼
 	Manping – 閩拼輸入方案
+	Dangrvond ---唐韻（中古漢語）拼音方案
