@@ -11,7 +11,7 @@
 
 ---
 name: jyutping+
-version: "0.8"
+version: "0.9" 20160411
 sort: by_weight	#original
 use_preset_vocabulary: true
 ...
@@ -2487,7 +2487,8 @@ use_preset_vocabulary: true
 黻	fat˥
 沷	fat˧
 乏	fat˨
-伐	fat˨
+伐 fat˨
+垡	fat˨
 佛	fat˨
 咈	fat˨
 坲	fat˨
@@ -8089,6 +8090,7 @@ use_preset_vocabulary: true
 霂	muk˨
 顢	mun˥˧
 悗	mun˨˧
+蟎 mun˨˧
 滿	mun˨˧
 悶	mun˨˨
 懣	mun˨˨
@@ -36334,3 +36336,47 @@ use_preset_vocabulary: true
 龜洞里
 龜港村
 龜港里
+
+#增補單字
+浜 ban˥˧
+浜 bong˥˧
+
+#增補新詞
+百度雲
+網易雲音楽
+愛奇藝
+嗶哩嗶哩
+優酷網
+土豆網
+趙瑾昀
+張俊峰
+陳琨
+小琨
+琨琨
+風再起時
+風繼續吹
+麥客
+紛云
+搵笨
+馬迷
+造馬
+跳樓貨
+屈機
+升呢
+雙非
+潮文
+張寶華
+寶華
+寶華姐
+膜蛤
+知乎
+造語
+十卜
+秒經
+係噉
+噉就好
+係噉嘅
+工口
+湯森
+湯森路透
+字稿
