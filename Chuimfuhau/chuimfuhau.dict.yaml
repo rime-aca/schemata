@@ -10,7 +10,7 @@
 #
 
 ---
-name: Chuimfuhau
+name: chuimfuhau
 version: "0.2"
 sort: by_weight	#original
 use_preset_vocabulary: true

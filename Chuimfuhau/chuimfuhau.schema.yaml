@@ -3,7 +3,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: Chuimfuhau
+  schema_id: chuimfuhau
   name: 注音文 ₀.₅₁
   version: "0.51"
   author:
@@ -47,7 +47,7 @@ speller:
   delimiter: " '"
 
 translator:
-  dictionary: Chuimfuhau
+  dictionary: chuimfuhau
   preedit_format:
   comment_format:
 

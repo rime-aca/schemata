@@ -3,7 +3,7 @@
 # 碼表表底由雪齋提供, 由叔寍設計編碼方案竝編碼
 
 ---
-name: KMG
+name: kmg
 version: "0.1"
 sort: by_weight
 use_preset_vocabulary: true

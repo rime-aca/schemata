@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: KMG
+  schema_id: kmg
   name: 廣韻段毄攴字法
   version: "2013.10.05"
   author:
