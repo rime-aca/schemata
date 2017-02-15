@@ -20,3 +20,15 @@ List of packages:
 - [rime-luna-pinyin-stroke](https://github.com/rime-aca/rime-luna-pinyin-stroke) – 朙月拼音·筆劃輔助碼
 - [rime-manping](https://github.com/rime-aca/rime-manping) – 閩拼輸入方案
 - [rime-dangrvond](https://github.com/rime-aca/rime-dangrvond) – 唐韻（中古漢語）拼音方案
+
+安裝指令：
+
+```sh
+curl -fsSL https://git.io/v13uY | bash -s -- https://github.com/rime-aca/schemata/raw/master/rime-aca-packages.conf
+```
+
+從 brise 安裝示例：
+
+```sh
+bash rime-install rime-aca/rime-cangjie6
+```
