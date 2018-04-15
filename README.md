@@ -24,10 +24,10 @@ List of packages:
 安裝指令：
 
 ```sh
-curl -fsSL https://git.io/v13uY | bash -s -- https://github.com/rime-aca/schemata/raw/master/rime-aca-packages.conf
+curl -fsSL https://git.io/rime-install | bash -s -- rime-aca/schemata/rime-aca-packages.conf
 ```
 
-從 brise 安裝示例：
+從 [/plum/](https://github.com/rime/plum) 安裝示例：
 
 ```sh
 bash rime-install rime-aca/rime-cangjie6
